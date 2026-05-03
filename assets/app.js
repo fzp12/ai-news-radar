@@ -7,6 +7,9 @@ const state = {
   totalRaw: 0,
   totalAllMode: 0,
   allDedup: true,
+  allDataLoaded: false,
+  allDataUrl: "data/latest-24h-all.json",
+  allDataPromise: null,
   siteFilter: "",
   query: "",
   mode: "ai",
@@ -55,18 +58,6 @@ const SOURCE_KINDS = {
   aibase: { label: "AI站点", tone: "aihub" },
   newsnow: { label: "聚合", tone: "aggregate" },
 };
-
-const AGGREGATE_SITE_IDS = new Set([
-  "techurls",
-  "buzzing",
-  "iris",
-  "bestblogs",
-  "tophub",
-  "zeli",
-  "aihubtoday",
-  "aibase",
-  "newsnow",
-]);
 
 function fmtNumber(n) {
   return new Intl.NumberFormat("zh-CN").format(n || 0);
@@ -123,11 +114,6 @@ function siteRow(siteId) {
   return siteRows().find((site) => site.site_id === siteId) || null;
 }
 
-function sumSiteItems(siteIds) {
-  const ids = new Set(siteIds);
-  return siteRows().reduce((sum, site) => ids.has(site.site_id) ? sum + Number(site.item_count || 0) : sum, 0);
-}
-
 function renderCoverageCard(label, value, meta, tone = "") {
   const node = document.createElement("div");
   node.className = `coverage-card ${tone}`.trim();
@@ -150,12 +136,11 @@ function renderCoverageStrip(errorMessage = "") {
   const rows = siteRows();
   const failedSites = Array.isArray(state.sourceStatus?.failed_sites) ? state.sourceStatus.failed_sites : [];
   const rss = state.sourceStatus?.rss_opml || {};
-  const allCount = state.totalAllMode || state.itemsAll.length;
-  const signalRatio = allCount ? Math.round((state.totalAi / allCount) * 100) : 0;
+  const allCount = Number(state.sourceStatus?.items_before_topic_filter || state.totalAllMode || state.itemsAll.length || 0);
+  const coverageCount = Number(state.sourceStatus?.fetched_raw_items || state.totalRaw || allCount || 0);
   const officialCount = Number(siteRow("official_ai")?.item_count || 0);
   const newsletterCount = Number(siteRow("aibreakfast")?.item_count || 0);
   const buildersCount = Number(siteRow("followbuilders")?.item_count || 0);
-  const aggregateCount = sumSiteItems(AGGREGATE_SITE_IDS);
   const totalSites = rows.length;
   const okSites = Number(state.sourceStatus?.successful_sites || 0);
   const opmlValue = rss.enabled ? `${fmtNumber(rss.ok_feeds || 0)}/${fmtNumber(rss.effective_feed_total || 0)}` : "OPML";
@@ -163,10 +148,10 @@ function renderCoverageStrip(errorMessage = "") {
 
   const cards = [
     ["源健康", totalSites ? `${fmtNumber(okSites)}/${fmtNumber(totalSites)}` : "加载中", failedSites.length ? `${fmtNumber(failedSites.length)} 个失败源` : (errorMessage || "内置源正常"), failedSites.length ? "warn" : "ok"],
-    ["AI 信号密度", `${fmtNumber(state.totalAi)} 条`, allCount ? `来自 ${fmtNumber(allCount)} 条去重全量 · ${signalRatio}%` : "等待新闻数据", "signal"],
-    ["官方 / 日报", `${fmtNumber(officialCount + newsletterCount)} 条`, "OpenAI 等官方节点 + AI Breakfast", "official"],
-    ["Builders / X", `${fmtNumber(buildersCount)} 条`, "Follow Builders 公开 feed", "builders"],
-    ["聚合广度", `${fmtNumber(aggregateCount)} 条`, "多站点补充覆盖", "aggregate"],
+    ["今日覆盖池", `${fmtNumber(coverageCount)} 条`, allCount ? `全网抓取原始信号 · ${fmtNumber(allCount)} 条入池` : "全网抓取原始信号", "signal"],
+    ["AI精选", `${fmtNumber(state.totalAi)} 条`, "24小时强相关信号", "signal"],
+    ["官方/日报源池", `${fmtNumber(officialCount + newsletterCount)} 条`, "官方节点 + AI Breakfast", "official"],
+    ["Builders/X源池", `${fmtNumber(buildersCount)} 条`, "Follow Builders公开feed", "builders"],
     ["私人扩展", opmlValue, opmlMeta, "private"],
   ];
 
@@ -446,7 +431,7 @@ function renderWaytoagi(waytoagi) {
   historyLink.rel = "noopener noreferrer";
   historyLink.textContent = "历史更新页";
   const todayCount = document.createElement("span");
-  todayCount.textContent = `当天(${latestDate || "--"})：${fmtNumber(waytoagi.count_today || updatesToday.length)} 条`;
+  todayCount.textContent = `最近更新日(${latestDate || "--"})：${fmtNumber(waytoagi.count_today || updatesToday.length)} 条`;
   const weekCount = document.createElement("span");
   weekCount.textContent = `近 7 日：${fmtNumber(waytoagi.count_7d || updates7d.length)} 条`;
   [rootLink, "·", historyLink, "·", todayCount, "·", weekCount].forEach((part) => {
@@ -473,7 +458,7 @@ function renderWaytoagi(waytoagi) {
     const div = document.createElement("div");
     div.className = "waytoagi-empty";
     div.textContent = state.waytoagiMode === "today"
-      ? "当天没有更新，可切换到近7日查看。"
+      ? "最近更新日没有更新，可切换到近7日查看。"
       : (waytoagi.warning || "近 7 日没有更新");
     waytoagiListEl.appendChild(div);
     return;
@@ -587,6 +572,29 @@ async function loadNewsData() {
   return res.json();
 }
 
+async function loadAllModeData() {
+  if (state.allDataLoaded) return;
+  if (!state.allDataPromise) {
+    state.allDataPromise = fetch(`./${state.allDataUrl}?t=${Date.now()}`)
+      .then((res) => {
+        if (!res.ok) throw new Error(`加载 latest-24h-all.json 失败: ${res.status}`);
+        return res.json();
+      })
+      .then((payload) => {
+        state.itemsAllRaw = payload.items_all_raw || payload.items_all || state.itemsAi;
+        state.itemsAll = payload.items_all || state.itemsAi;
+        state.totalRaw = payload.total_items_raw || state.itemsAllRaw.length;
+        state.totalAllMode = payload.total_items_all_mode || state.itemsAll.length;
+        state.allDataLoaded = true;
+      })
+      .catch((err) => {
+        state.allDataPromise = null;
+        throw err;
+      });
+  }
+  return state.allDataPromise;
+}
+
 async function loadWaytoagiData() {
   const res = await fetch(`./data/waytoagi-7d.json?t=${Date.now()}`);
   if (!res.ok) throw new Error(`加载 waytoagi-7d.json 失败: ${res.status}`);
@@ -609,12 +617,14 @@ async function init() {
   if (newsResult.status === "fulfilled") {
     const payload = newsResult.value;
     state.itemsAi = payload.items_ai || payload.items || [];
-    state.itemsAllRaw = payload.items_all_raw || payload.items_all || payload.items || [];
-    state.itemsAll = payload.items_all || payload.items || [];
+    state.itemsAllRaw = payload.items_all_raw || payload.items_all || [];
+    state.itemsAll = payload.items_all || [];
     state.statsAi = payload.site_stats || [];
     state.totalAi = payload.total_items || state.itemsAi.length;
     state.totalRaw = payload.total_items_raw || state.itemsAllRaw.length;
     state.totalAllMode = payload.total_items_all_mode || state.itemsAll.length;
+    state.allDataUrl = payload.all_mode_data_url || state.allDataUrl;
+    state.allDataLoaded = Boolean(payload.items_all || payload.items_all_raw);
     state.generatedAt = payload.generated_at;
 
     setStats(payload);
@@ -665,11 +675,25 @@ modeAiBtnEl.addEventListener("click", () => {
   renderList();
 });
 
-modeAllBtnEl.addEventListener("click", () => {
+modeAllBtnEl.addEventListener("click", async () => {
   state.mode = "all";
   renderModeSwitch();
-  renderSiteFilters();
-  renderList();
+  newsListEl.innerHTML = "";
+  const loading = document.createElement("div");
+  loading.className = "empty";
+  loading.textContent = "正在加载全量更新...";
+  newsListEl.appendChild(loading);
+  try {
+    await loadAllModeData();
+    renderSiteFilters();
+    renderList();
+  } catch (err) {
+    newsListEl.innerHTML = "";
+    const failed = document.createElement("div");
+    failed.className = "empty";
+    failed.textContent = err.message;
+    newsListEl.appendChild(failed);
+  }
 });
 
 if (allDedupeToggleEl) {

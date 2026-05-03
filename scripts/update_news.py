@@ -2215,9 +2215,45 @@ TOPHUB_BLOCK_KEYWORDS = [
 ]
 
 
+MEANINGFUL_EN_SIGNAL_RE = re.compile(
+    r"(?i)(?<![a-z0-9])(ai|aigc|llm|gpt|openai|anthropic|deepseek|gemini|claude|robot|robotics|embodied|autonomous|machine learning|artificial intelligence|transformer|diffusion)(?![a-z0-9])"
+)
+EMAIL_RE = re.compile(r"\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}\b")
+SECRET_LIKE_RE = re.compile(r"\b(sk-(?!hynix\b)[A-Za-z0-9_-]{12,}|(?:api[_-]?key|secret|token)=([^\s&]{6,}))\b", re.I)
+BROAD_AI_TERMS = {"agent", "模型", "推理"}
+
+
 def contains_any_keyword(haystack: str, keywords: list[str]) -> bool:
     h = haystack.lower()
     return any(k in h for k in keywords)
+
+
+def contains_meaningful_ai_signal(haystack: str) -> bool:
+    h = haystack.lower()
+    if MEANINGFUL_EN_SIGNAL_RE.search(h):
+        return True
+    return any(k in h for k in AI_KEYWORDS if k not in BROAD_AI_TERMS)
+
+
+def redact_public_text(text: str) -> str:
+    if not isinstance(text, str) or not text:
+        return text
+    text = EMAIL_RE.sub("[redacted-email]", text)
+    return SECRET_LIKE_RE.sub("[redacted-secret]", text)
+
+
+def sanitize_public_value(value: Any) -> Any:
+    if isinstance(value, str):
+        return redact_public_text(value)
+    if isinstance(value, list):
+        return [sanitize_public_value(item) for item in value]
+    if isinstance(value, dict):
+        return {key: sanitize_public_value(val) for key, val in value.items()}
+    return value
+
+
+def sanitize_public_payload(payload: dict[str, Any]) -> dict[str, Any]:
+    return sanitize_public_value(payload)
 
 
 def has_mojibake_noise(text: str) -> bool:
@@ -2266,16 +2302,17 @@ def is_ai_related_record(record: dict[str, Any]) -> bool:
     if site_id in {"aibase", "aihot", "aihubtoday"}:
         return True
 
-    has_ai = contains_any_keyword(text, AI_KEYWORDS) or EN_SIGNAL_RE.search(text) is not None
+    has_ai = contains_meaningful_ai_signal(text)
+    has_broad_ai = contains_any_keyword(text, list(BROAD_AI_TERMS)) or EN_SIGNAL_RE.search(text) is not None
     has_tech = contains_any_keyword(text, TECH_KEYWORDS)
 
-    if not (has_ai or has_tech):
+    if not (has_ai or (has_broad_ai and has_tech)):
         return False
 
     if contains_any_keyword(text, COMMERCE_NOISE_KEYWORDS) and not has_ai:
         return False
 
-    # 如果是明显噪声且没有 AI 信号，则丢弃。
+    # 如果是明显噪声且没有明确 AI 信号，则丢弃。
     if contains_any_keyword(text, NOISE_KEYWORDS) and not has_ai:
         return False
 
@@ -2412,6 +2449,24 @@ def dedupe_items_by_title_url(items: list[dict[str, Any]], random_pick: bool = T
     return out
 
 
+def build_latest_payloads(latest_payload: dict[str, Any]) -> tuple[dict[str, Any], dict[str, Any]]:
+    """Split initial AI payload from bulky all-mode lists for lazy browser loading."""
+    slim_payload = dict(latest_payload)
+    all_payload = {
+        "generated_at": latest_payload.get("generated_at"),
+        "window_hours": latest_payload.get("window_hours"),
+        "topic_filter": latest_payload.get("topic_filter"),
+        "total_items_raw": latest_payload.get("total_items_raw"),
+        "total_items_all_mode": latest_payload.get("total_items_all_mode"),
+        "items_all": latest_payload.get("items_all", []),
+        "items_all_raw": latest_payload.get("items_all_raw", []),
+    }
+    slim_payload.pop("items_all", None)
+    slim_payload.pop("items_all_raw", None)
+    slim_payload["all_mode_data_url"] = "data/latest-24h-all.json"
+    return slim_payload, all_payload
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="Aggregate AI news updates from multiple sources")
     parser.add_argument("--output-dir", default="data", help="Directory for output JSON files")
@@ -2428,6 +2483,7 @@ def main() -> int:
 
     archive_path = output_dir / "archive.json"
     latest_path = output_dir / "latest-24h.json"
+    latest_all_path = output_dir / "latest-24h-all.json"
     status_path = output_dir / "source-status.json"
     waytoagi_path = output_dir / "waytoagi-7d.json"
     title_cache_path = output_dir / "title-zh-cache.json"
@@ -2626,7 +2682,7 @@ def main() -> int:
         "items_in_24h": len(latest_items_ai_dedup),
         "rss_opml": {
             "enabled": bool(args.rss_opml),
-            "path": str(Path(args.rss_opml).expanduser()) if args.rss_opml else None,
+            "path": "configured" if args.rss_opml else None,
             "feed_total": len(rss_feed_statuses),
             "effective_feed_total": sum(1 for s in rss_feed_statuses if not s.get("skipped")),
             "ok_feeds": sum(1 for s in rss_feed_statuses if s["ok"] and not s.get("skipped")),
@@ -2666,16 +2722,20 @@ def main() -> int:
             "error": str(exc),
         }
 
-    latest_path.write_text(json.dumps(latest_payload, ensure_ascii=False, indent=2), encoding="utf-8")
+    latest_payload, latest_all_payload = build_latest_payloads(latest_payload)
+
+    latest_path.write_text(json.dumps(sanitize_public_payload(latest_payload), ensure_ascii=False, indent=2), encoding="utf-8")
+    latest_all_path.write_text(json.dumps(sanitize_public_payload(latest_all_payload), ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     archive_path.write_text(
-        json.dumps(archive_payload, ensure_ascii=False, separators=(",", ":")),
+        json.dumps(sanitize_public_payload(archive_payload), ensure_ascii=False, separators=(",", ":")),
         encoding="utf-8",
     )
-    status_path.write_text(json.dumps(status_payload, ensure_ascii=False, indent=2), encoding="utf-8")
-    waytoagi_path.write_text(json.dumps(waytoagi_payload, ensure_ascii=False, indent=2), encoding="utf-8")
-    title_cache_path.write_text(json.dumps(title_cache, ensure_ascii=False, indent=2), encoding="utf-8")
+    status_path.write_text(json.dumps(sanitize_public_payload(status_payload), ensure_ascii=False, indent=2), encoding="utf-8")
+    waytoagi_path.write_text(json.dumps(sanitize_public_payload(waytoagi_payload), ensure_ascii=False, indent=2), encoding="utf-8")
+    title_cache_path.write_text(json.dumps(sanitize_public_payload(title_cache), ensure_ascii=False, indent=2), encoding="utf-8")
 
     print(f"Wrote: {latest_path} ({len(latest_items)} items)")
+    print(f"Wrote: {latest_all_path} ({len(latest_items_all_dedup)} all-mode items)")
     print(f"Wrote: {archive_path} ({len(archive)} items)")
     print(f"Wrote: {status_path}")
     print(f"Wrote: {waytoagi_path} ({waytoagi_payload.get('count_7d', 0)} items)")

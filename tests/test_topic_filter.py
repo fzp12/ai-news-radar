@@ -1,6 +1,7 @@
 import unittest
 
 from scripts.update_news import (
+    build_latest_payloads,
     dedupe_items_by_title_url,
     is_ai_related_record,
     is_hubtoday_generic_anchor_title,
@@ -12,6 +13,7 @@ from scripts.update_news import (
     parse_anthropic_news_items,
     parse_follow_builders_items,
     parse_openai_codex_changelog_items,
+    redact_public_text,
 )
 
 
@@ -234,6 +236,47 @@ class TopicFilterTests(unittest.TestCase):
         out = dedupe_items_by_title_url(items, random_pick=False)
         self.assertEqual(len(out), 1)
         self.assertEqual(out[0]["id"], "2")
+
+    def test_rejects_broad_agent_noise_without_ai_context(self):
+        rec = {
+            "site_id": "buzzing",
+            "site_name": "Buzzing",
+            "source": "github.com",
+            "title": "New travel agent marketplace launches in Europe",
+            "url": "https://example.com/travel-agent",
+        }
+        self.assertFalse(is_ai_related_record(rec))
+
+    def test_accepts_chinese_model_news_after_noise_tightening(self):
+        rec = {
+            "site_id": "tophub",
+            "site_name": "TopHub",
+            "source": "机器之心",
+            "title": "新一代推理模型刷新多模态数学基准",
+            "url": "https://example.com/reasoning-model",
+        }
+        self.assertTrue(is_ai_related_record(rec))
+
+    def test_redacts_email_like_public_text(self):
+        self.assertEqual(redact_public_text("Contact editor@example.com for access"), "Contact [redacted-email] for access")
+
+    def test_build_latest_payloads_keeps_initial_payload_slim(self):
+        latest_payload = {
+            "generated_at": "2026-05-03T00:00:00Z",
+            "window_hours": 24,
+            "total_items": 1,
+            "total_items_raw": 3,
+            "total_items_all_mode": 2,
+            "items_ai": [{"title": "AI post", "url": "https://example.com/a"}],
+            "items_all": [{"title": "All post", "url": "https://example.com/b"}],
+            "items_all_raw": [{"title": "Raw post", "url": "https://example.com/c"}],
+        }
+        slim, all_payload = build_latest_payloads(latest_payload)
+        self.assertIn("items_ai", slim)
+        self.assertNotIn("items_all", slim)
+        self.assertNotIn("items_all_raw", slim)
+        self.assertEqual(all_payload["items_all"][0]["title"], "All post")
+        self.assertEqual(all_payload["items_all_raw"][0]["title"], "Raw post")
 
 
 if __name__ == "__main__":
