@@ -10,6 +10,7 @@ from scripts.update_news import (
     parse_ai_breakfast_items,
     parse_feed_entries_via_xml,
     parse_anthropic_news_items,
+    parse_follow_builders_items,
     parse_openai_codex_changelog_items,
 )
 
@@ -42,6 +43,16 @@ class TopicFilterTests(unittest.TestCase):
             "source": "technology",
             "title": "Embodied robotics gets new funding",
             "url": "https://example.com/robotics",
+        }
+        self.assertTrue(is_ai_related_record(rec))
+
+    def test_accepts_follow_builders_curated_feed(self):
+        rec = {
+            "site_id": "followbuilders",
+            "site_name": "Follow Builders",
+            "source": "Follow Builders · X · Andrej Karpathy",
+            "title": "A terse but useful Codex builder note",
+            "url": "https://x.com/karpathy/status/1",
         }
         self.assertTrue(is_ai_related_record(rec))
 
@@ -149,6 +160,52 @@ class TopicFilterTests(unittest.TestCase):
         self.assertEqual(items[0].source, "AI Breakfast")
         self.assertEqual(items[0].title, "Anthropic update lands")
         self.assertEqual(items[0].url, "https://aibreakfast.beehiiv.com/p/anthropic-update-lands")
+
+    def test_parse_follow_builders_items(self):
+        feeds = {
+            "x": {
+                "x": [
+                    {
+                        "name": "Andrej Karpathy",
+                        "handle": "karpathy",
+                        "tweets": [
+                            {
+                                "text": "LLM notes from the field",
+                                "createdAt": "2026-05-02T06:21:22.000Z",
+                                "url": "https://x.com/karpathy/status/1",
+                            }
+                        ],
+                    }
+                ]
+            },
+            "blogs": {
+                "generatedAt": "2026-05-02T07:41:11.599Z",
+                "blogs": [
+                    {
+                        "name": "Anthropic Engineering",
+                        "title": "A Claude Code postmortem",
+                        "url": "https://www.anthropic.com/engineering/postmortem",
+                        "publishedAt": None,
+                    }
+                ],
+            },
+            "podcasts": {
+                "podcasts": [
+                    {
+                        "name": "No Priors",
+                        "title": "Inference cloud interview",
+                        "url": "https://www.youtube.com/watch?v=abc",
+                        "publishedAt": "2026-05-01T19:34:00.000Z",
+                    }
+                ]
+            },
+        }
+        items = parse_follow_builders_items(feeds, now=None)
+        self.assertEqual(len(items), 3)
+        self.assertEqual(items[0].site_id, "followbuilders")
+        self.assertEqual(items[0].source, "Follow Builders · X · Andrej Karpathy")
+        self.assertEqual(items[1].source, "Follow Builders · Blog · Anthropic Engineering")
+        self.assertEqual(items[2].source, "Follow Builders · Podcast · No Priors")
 
     def test_hubtoday_placeholder_title(self):
         self.assertTrue(is_hubtoday_placeholder_title("详情见官方介绍(AI资讯)"))
