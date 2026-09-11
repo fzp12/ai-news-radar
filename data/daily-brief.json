@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T09:43:00.741041Z",
+  "generated_at": "2026-09-11T11:19:21.992351Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -48,15 +48,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8274,
-      "importance": 0.8274,
-      "importance_score": 0.8274,
+      "score": 0.8242,
+      "importance": 0.8242,
+      "importance_score": 0.8242,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.99,
-        "recency": 0.7743,
+        "recency": 0.7565,
         "story_heat": 0.0
       },
       "category": "official",
@@ -83,12 +83,12 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-11T10:22:45.963418Z"
+        "scored_at": "2026-09-11T11:20:15.030579Z"
       }
     },
     {
       "story_id": "story_01060d22a981",
-      "title": "GitHub Copilot app for Beginners: Using the diff, terminal, and browser",
+      "title": "适合初学者的 GitHub Copilot 应用程序：使用 diff、终端和浏览器 / GitHub Copilot app for Beginners: Using the diff, terminal, and browser",
       "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-using-the-diff-terminal-and-browser",
       "primary_url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-using-the-diff-terminal-and-browser",
       "source": "GitHub AI & ML",
@@ -96,8 +96,8 @@
       "sources": [
         {
           "id": "40bc0a2f1839400b24b9b45378777be768b1b293",
-          "title": "GitHub Copilot app for Beginners: Using the diff, terminal, and browser",
-          "title_zh": null,
+          "title": "适合初学者的 GitHub Copilot 应用程序：使用 diff、终端和浏览器 / GitHub Copilot app for Beginners: Using the diff, terminal, and browser",
+          "title_zh": "适合初学者的 GitHub Copilot 应用程序：使用 diff、终端和浏览器",
           "title_en": "GitHub Copilot app for Beginners: Using the diff, terminal, and browser",
           "title_original": "GitHub Copilot app for Beginners: Using the diff, terminal, and browser",
           "summary": null,
@@ -116,8 +116,8 @@
       "items": [
         {
           "id": "40bc0a2f1839400b24b9b45378777be768b1b293",
-          "title": "GitHub Copilot app for Beginners: Using the diff, terminal, and browser",
-          "title_zh": null,
+          "title": "适合初学者的 GitHub Copilot 应用程序：使用 diff、终端和浏览器 / GitHub Copilot app for Beginners: Using the diff, terminal, and browser",
+          "title_zh": "适合初学者的 GitHub Copilot 应用程序：使用 diff、终端和浏览器",
           "title_en": "GitHub Copilot app for Beginners: Using the diff, terminal, and browser",
           "title_original": "GitHub Copilot app for Beginners: Using the diff, terminal, and browser",
           "summary": null,
@@ -131,15 +131,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8229,
-      "importance": 0.8229,
-      "importance_score": 0.8229,
+      "score": 0.8195,
+      "importance": 0.8195,
+      "importance_score": 0.8195,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.8385,
+        "recency": 0.8193,
         "story_heat": 0.0
       },
       "category": "official",
@@ -152,8 +152,8 @@
       "latest_at": "2026-09-10T21:31:19Z",
       "primary_item": {
         "id": "40bc0a2f1839400b24b9b45378777be768b1b293",
-        "title": "GitHub Copilot app for Beginners: Using the diff, terminal, and browser",
-        "title_zh": null,
+        "title": "适合初学者的 GitHub Copilot 应用程序：使用 diff、终端和浏览器 / GitHub Copilot app for Beginners: Using the diff, terminal, and browser",
+        "title_zh": "适合初学者的 GitHub Copilot 应用程序：使用 diff、终端和浏览器",
         "title_en": "GitHub Copilot app for Beginners: Using the diff, terminal, and browser",
         "title_original": "GitHub Copilot app for Beginners: Using the diff, terminal, and browser",
         "summary": null,
@@ -166,12 +166,12 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-11T10:22:45.963418Z"
+        "scored_at": "2026-09-11T11:20:15.030579Z"
       }
     },
     {
       "story_id": "story_b2b031fb6942",
-      "title": "Refreshed repository pull requests page in public preview",
+      "title": "公开预览中刷新的代码仓库拉取请求页面 / Refreshed repository pull requests page in public preview",
       "url": "https://github.blog/changelog/2026-09-10-refreshed-repository-pull-requests-page-in-public-preview",
       "primary_url": "https://github.blog/changelog/2026-09-10-refreshed-repository-pull-requests-page-in-public-preview",
       "source": "GitHub Changelog",
@@ -179,8 +179,8 @@
       "sources": [
         {
           "id": "e33beeeed54ceddbff6e9ea63a005eaf927c7cc2",
-          "title": "Refreshed repository pull requests page in public preview",
-          "title_zh": null,
+          "title": "公开预览中刷新的代码仓库拉取请求页面 / Refreshed repository pull requests page in public preview",
+          "title_zh": "公开预览中刷新的代码仓库拉取请求页面",
           "title_en": "Refreshed repository pull requests page in public preview",
           "title_original": "Refreshed repository pull requests page in public preview",
           "summary": null,
@@ -199,8 +199,8 @@
       "items": [
         {
           "id": "e33beeeed54ceddbff6e9ea63a005eaf927c7cc2",
-          "title": "Refreshed repository pull requests page in public preview",
-          "title_zh": null,
+          "title": "公开预览中刷新的代码仓库拉取请求页面 / Refreshed repository pull requests page in public preview",
+          "title_zh": "公开预览中刷新的代码仓库拉取请求页面",
           "title_en": "Refreshed repository pull requests page in public preview",
           "title_original": "Refreshed repository pull requests page in public preview",
           "summary": null,
@@ -214,15 +214,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8148,
-      "importance": 0.8148,
-      "importance_score": 0.8148,
+      "score": 0.8113,
+      "importance": 0.8113,
+      "importance_score": 0.8113,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.8377,
+        "recency": 0.8185,
         "story_heat": 0.0
       },
       "category": "official",
@@ -235,8 +235,8 @@
       "latest_at": "2026-09-10T21:27:17Z",
       "primary_item": {
         "id": "e33beeeed54ceddbff6e9ea63a005eaf927c7cc2",
-        "title": "Refreshed repository pull requests page in public preview",
-        "title_zh": null,
+        "title": "公开预览中刷新的代码仓库拉取请求页面 / Refreshed repository pull requests page in public preview",
+        "title_zh": "公开预览中刷新的代码仓库拉取请求页面",
         "title_en": "Refreshed repository pull requests page in public preview",
         "title_original": "Refreshed repository pull requests page in public preview",
         "summary": null,
@@ -249,7 +249,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-11T10:22:45.963418Z"
+        "scored_at": "2026-09-11T11:20:15.030579Z"
       }
     },
     {
@@ -297,15 +297,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8034,
-      "importance": 0.8034,
-      "importance_score": 0.8034,
+      "score": 0.8002,
+      "importance": 0.8002,
+      "importance_score": 0.8002,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.7743,
+        "recency": 0.7565,
         "story_heat": 0.0
       },
       "category": "official",
@@ -332,7 +332,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-11T10:22:45.963418Z"
+        "scored_at": "2026-09-11T11:20:15.030579Z"
       }
     },
     {
@@ -409,15 +409,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7863,
-      "importance": 0.7863,
-      "importance_score": 0.7863,
+      "score": 0.7829,
+      "importance": 0.7829,
+      "importance_score": 0.7829,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.8,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8317,
+        "recency": 0.8127,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -444,7 +444,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-11T10:22:45.963418Z"
+        "scored_at": "2026-09-11T11:20:15.030579Z"
       }
     },
     {
@@ -520,15 +520,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7831,
-      "importance": 0.7831,
-      "importance_score": 0.7831,
+      "score": 0.7792,
+      "importance": 0.7792,
+      "importance_score": 0.7792,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9473,
+        "recency": 0.9256,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -555,12 +555,12 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-11T10:22:45.963418Z"
+        "scored_at": "2026-09-11T11:20:15.030579Z"
       }
     },
     {
       "story_id": "story_353d7797f4fb",
-      "title": "AI Scan for pull request APIs in public preview",
+      "title": "AI 扫描公共预览版中的拉取请求 API / AI Scan for pull request APIs in public preview",
       "url": "https://github.blog/changelog/2026-09-10-ai-scan-for-pull-request-apis-in-public-preview",
       "primary_url": "https://github.blog/changelog/2026-09-10-ai-scan-for-pull-request-apis-in-public-preview",
       "source": "GitHub Changelog",
@@ -568,8 +568,8 @@
       "sources": [
         {
           "id": "66c3a162c96f83e19ee48f4d23e03b4a40655d7b",
-          "title": "AI Scan for pull request APIs in public preview",
-          "title_zh": null,
+          "title": "AI 扫描公共预览版中的拉取请求 API / AI Scan for pull request APIs in public preview",
+          "title_zh": "AI 扫描公共预览版中的拉取请求 API",
           "title_en": "AI Scan for pull request APIs in public preview",
           "title_original": "AI Scan for pull request APIs in public preview",
           "summary": null,
@@ -588,8 +588,8 @@
       "items": [
         {
           "id": "66c3a162c96f83e19ee48f4d23e03b4a40655d7b",
-          "title": "AI Scan for pull request APIs in public preview",
-          "title_zh": null,
+          "title": "AI 扫描公共预览版中的拉取请求 API / AI Scan for pull request APIs in public preview",
+          "title_zh": "AI 扫描公共预览版中的拉取请求 API",
           "title_en": "AI Scan for pull request APIs in public preview",
           "title_original": "AI Scan for pull request APIs in public preview",
           "summary": null,
@@ -603,15 +603,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8124,
-      "importance": 0.8124,
-      "importance_score": 0.8124,
+      "score": 0.809,
+      "importance": 0.809,
+      "importance_score": 0.809,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.8245,
+        "recency": 0.8056,
         "story_heat": 0.0
       },
       "category": "official",
@@ -624,8 +624,8 @@
       "latest_at": "2026-09-10T20:20:58Z",
       "primary_item": {
         "id": "66c3a162c96f83e19ee48f4d23e03b4a40655d7b",
-        "title": "AI Scan for pull request APIs in public preview",
-        "title_zh": null,
+        "title": "AI 扫描公共预览版中的拉取请求 API / AI Scan for pull request APIs in public preview",
+        "title_zh": "AI 扫描公共预览版中的拉取请求 API",
         "title_en": "AI Scan for pull request APIs in public preview",
         "title_original": "AI Scan for pull request APIs in public preview",
         "summary": null,
@@ -638,7 +638,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-11T10:22:45.963418Z"
+        "scored_at": "2026-09-11T11:20:15.030579Z"
       }
     },
     {
@@ -686,15 +686,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8094,
-      "importance": 0.8094,
-      "importance_score": 0.8094,
+      "score": 0.8062,
+      "importance": 0.8062,
+      "importance_score": 0.8062,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.7632,
+        "recency": 0.7457,
         "story_heat": 0.0
       },
       "category": "official",
@@ -721,7 +721,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-11T10:22:45.963418Z"
+        "scored_at": "2026-09-11T11:20:15.030579Z"
       }
     },
     {
@@ -798,15 +798,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7771,
-      "importance": 0.7771,
-      "importance_score": 0.7771,
+      "score": 0.7739,
+      "importance": 0.7739,
+      "importance_score": 0.7739,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.8,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7806,
+        "recency": 0.7627,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -833,7 +833,89 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-11T10:22:45.963418Z"
+        "scored_at": "2026-09-11T11:20:15.030579Z"
+      }
+    },
+    {
+      "story_id": "story_9cc4559ef9f0",
+      "title": "实测 DeepSeek V4.1 Flash：价格大降、原生带视觉，作者用游戏与城市生成任务验证表现",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw%3D%3D&mid=2247511119&idx=1&sn=0f53b5017e41b16afc9b201966ce2bda",
+      "primary_url": "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw%3D%3D&mid=2247511119&idx=1&sn=0f53b5017e41b16afc9b201966ce2bda",
+      "source": "公众号：卡尔的AI沃茨",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "75b9e770438f92296d66b37e1b8f03368d074325",
+          "title": "实测 DeepSeek V4.1 Flash：价格大降、原生带视觉，作者用游戏与城市生成任务验证表现",
+          "title_zh": "实测 DeepSeek V4.1 Flash：价格大降、原生带视觉，作者用游戏与城市生成任务验证表现",
+          "title_en": null,
+          "title_original": "实测 DeepSeek V4.1 Flash：价格大降、原生带视觉，作者用游戏与城市生成任务验证表现",
+          "summary": "作者实测 DeepSeek V4.1 Flash，缓存命中输入降价 7 倍多、输出砍三分之二，9 月 14 日中午 12 点起所有发往 v4-pro 的请求将被强制路由到 4.1 Flash 并按其低价计费。",
+          "recommend_reason_zh": null,
+          "url": "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw%3D%3D&mid=2247511119&idx=1&sn=0f53b5017e41b16afc9b201966ce2bda",
+          "source": "公众号：卡尔的AI沃茨",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-09-11T04:24:28Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "公众号：卡尔的AI沃茨"
+      ],
+      "items": [
+        {
+          "id": "75b9e770438f92296d66b37e1b8f03368d074325",
+          "title": "实测 DeepSeek V4.1 Flash：价格大降、原生带视觉，作者用游戏与城市生成任务验证表现",
+          "title_zh": "实测 DeepSeek V4.1 Flash：价格大降、原生带视觉，作者用游戏与城市生成任务验证表现",
+          "title_en": null,
+          "title_original": "实测 DeepSeek V4.1 Flash：价格大降、原生带视觉，作者用游戏与城市生成任务验证表现",
+          "summary": "作者实测 DeepSeek V4.1 Flash，缓存命中输入降价 7 倍多、输出砍三分之二，9 月 14 日中午 12 点起所有发往 v4-pro 的请求将被强制路由到 4.1 Flash 并按其低价计费。",
+          "recommend_reason_zh": null,
+          "url": "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw%3D%3D&mid=2247511119&idx=1&sn=0f53b5017e41b16afc9b201966ce2bda",
+          "source": "公众号：卡尔的AI沃茨",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-09-11T04:24:28Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7625,
+      "importance": 0.7625,
+      "importance_score": 0.7625,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.76,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.905,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-09-11T04:24:28Z",
+      "latest_at": "2026-09-11T04:24:28Z",
+      "primary_item": {
+        "id": "75b9e770438f92296d66b37e1b8f03368d074325",
+        "title": "实测 DeepSeek V4.1 Flash：价格大降、原生带视觉，作者用游戏与城市生成任务验证表现",
+        "title_zh": "实测 DeepSeek V4.1 Flash：价格大降、原生带视觉，作者用游戏与城市生成任务验证表现",
+        "title_en": null,
+        "title_original": "实测 DeepSeek V4.1 Flash：价格大降、原生带视觉，作者用游戏与城市生成任务验证表现",
+        "summary": "作者实测 DeepSeek V4.1 Flash，缓存命中输入降价 7 倍多、输出砍三分之二，9 月 14 日中午 12 点起所有发往 v4-pro 的请求将被强制路由到 4.1 Flash 并按其低价计费。",
+        "recommend_reason_zh": null,
+        "url": "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw%3D%3D&mid=2247511119&idx=1&sn=0f53b5017e41b16afc9b201966ce2bda",
+        "source": "公众号：卡尔的AI沃茨",
+        "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 1,
+      "persona_meta": {
+        "mode": "rules_fallback",
+        "scored_at": "2026-09-11T11:20:15.030579Z"
       }
     },
     {
@@ -881,21 +963,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7521,
-      "importance": 0.7521,
-      "importance_score": 0.7521,
+      "score": 0.749,
+      "importance": 0.749,
+      "importance_score": 0.749,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.81,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.764,
+        "recency": 0.7465,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-09-10T15:04:41.487000Z",
       "latest_at": "2026-09-10T15:04:41.487000Z",
@@ -915,12 +996,12 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-11T10:22:45.963418Z"
+        "scored_at": "2026-09-11T11:20:15.030579Z"
       }
     },
     {
       "story_id": "story_d376123c7d4c",
-      "title": "Control GitHub Actions cache access with cache-mode",
+      "title": "使用缓存模式控制 GitHub Actions 缓存访问 / Control GitHub Actions cache access with cache-mode",
       "url": "https://github.blog/changelog/2026-09-10-control-github-actions-cache-access-with-cache-mode",
       "primary_url": "https://github.blog/changelog/2026-09-10-control-github-actions-cache-access-with-cache-mode",
       "source": "GitHub Changelog",
@@ -928,8 +1009,8 @@
       "sources": [
         {
           "id": "461bda39ca84e7ac8434484871e669a57ccd95eb",
-          "title": "Control GitHub Actions cache access with cache-mode",
-          "title_zh": null,
+          "title": "使用缓存模式控制 GitHub Actions 缓存访问 / Control GitHub Actions cache access with cache-mode",
+          "title_zh": "使用缓存模式控制 GitHub Actions 缓存访问",
           "title_en": "Control GitHub Actions cache access with cache-mode",
           "title_original": "Control GitHub Actions cache access with cache-mode",
           "summary": null,
@@ -948,8 +1029,8 @@
       "items": [
         {
           "id": "461bda39ca84e7ac8434484871e669a57ccd95eb",
-          "title": "Control GitHub Actions cache access with cache-mode",
-          "title_zh": null,
+          "title": "使用缓存模式控制 GitHub Actions 缓存访问 / Control GitHub Actions cache access with cache-mode",
+          "title_zh": "使用缓存模式控制 GitHub Actions 缓存访问",
           "title_en": "Control GitHub Actions cache access with cache-mode",
           "title_original": "Control GitHub Actions cache access with cache-mode",
           "summary": null,
@@ -963,15 +1044,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8063,
-      "importance": 0.8063,
-      "importance_score": 0.8063,
+      "score": 0.8031,
+      "importance": 0.8031,
+      "importance_score": 0.8031,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.7906,
+        "recency": 0.7725,
         "story_heat": 0.0
       },
       "category": "official",
@@ -984,8 +1065,8 @@
       "latest_at": "2026-09-10T17:26:59Z",
       "primary_item": {
         "id": "461bda39ca84e7ac8434484871e669a57ccd95eb",
-        "title": "Control GitHub Actions cache access with cache-mode",
-        "title_zh": null,
+        "title": "使用缓存模式控制 GitHub Actions 缓存访问 / Control GitHub Actions cache access with cache-mode",
+        "title_zh": "使用缓存模式控制 GitHub Actions 缓存访问",
         "title_en": "Control GitHub Actions cache access with cache-mode",
         "title_original": "Control GitHub Actions cache access with cache-mode",
         "summary": null,
@@ -998,7 +1079,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-11T10:22:45.963418Z"
+        "scored_at": "2026-09-11T11:20:15.030579Z"
       }
     },
     {
@@ -1046,15 +1127,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.745,
-      "importance": 0.745,
-      "importance_score": 0.745,
+      "score": 0.7417,
+      "importance": 0.7417,
+      "importance_score": 0.7417,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.77,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.791,
+        "recency": 0.7729,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1079,30 +1160,30 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-11T10:22:45.963418Z"
+        "scored_at": "2026-09-11T11:20:15.030579Z"
       }
     },
     {
-      "story_id": "story_39d2731bcaac",
-      "title": "Anthropic 披露：今年已阻止多起利用 AI 研发生物武器的尝试",
-      "url": "https://www.aibase.com/news/30999",
-      "primary_url": "https://www.aibase.com/news/30999",
+      "story_id": "story_fe90ca3f92b8",
+      "title": "小米开源工业级目标说话人语音识别大模型 CocktailASR-1",
+      "url": "https://www.aibase.com/news/31001",
+      "primary_url": "https://www.aibase.com/news/31001",
       "source": "AIbase",
       "source_name": "AIbase",
       "sources": [
         {
-          "id": "ddddf1337ac515a43634ab46bc1dbd7ae392136b",
-          "title": "Anthropic 披露：今年已阻止多起利用 AI 研发生物武器的尝试",
-          "title_zh": "Anthropic 披露：今年已阻止多起利用 AI 研发生物武器的尝试",
+          "id": "69a2c23e5f99391e1ea81888e087bd4dde1de815",
+          "title": "小米开源工业级目标说话人语音识别大模型 CocktailASR-1",
+          "title_zh": "小米开源工业级目标说话人语音识别大模型 CocktailASR-1",
           "title_en": null,
-          "title_original": "Anthropic 披露：今年已阻止多起利用 AI 研发生物武器的尝试",
+          "title_original": "小米开源工业级目标说话人语音识别大模型 CocktailASR-1",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/30999",
+          "url": "https://www.aibase.com/news/31001",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-09-11T09:43:00.741041Z"
+          "published_at": "2026-09-11T11:19:21.992351Z"
         }
       ],
       "source_count": 1,
@@ -1111,18 +1192,18 @@
       ],
       "items": [
         {
-          "id": "ddddf1337ac515a43634ab46bc1dbd7ae392136b",
-          "title": "Anthropic 披露：今年已阻止多起利用 AI 研发生物武器的尝试",
-          "title_zh": "Anthropic 披露：今年已阻止多起利用 AI 研发生物武器的尝试",
+          "id": "69a2c23e5f99391e1ea81888e087bd4dde1de815",
+          "title": "小米开源工业级目标说话人语音识别大模型 CocktailASR-1",
+          "title_zh": "小米开源工业级目标说话人语音识别大模型 CocktailASR-1",
           "title_en": null,
-          "title_original": "Anthropic 披露：今年已阻止多起利用 AI 研发生物武器的尝试",
+          "title_original": "小米开源工业级目标说话人语音识别大模型 CocktailASR-1",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/30999",
+          "url": "https://www.aibase.com/news/31001",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
-          "published_at": "2026-09-11T09:43:00.741041Z"
+          "published_at": "2026-09-11T11:19:21.992351Z"
         }
       ],
       "item_count": 1,
@@ -1143,17 +1224,17 @@
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-09-11T09:43:00.741041Z",
-      "latest_at": "2026-09-11T09:43:00.741041Z",
+      "earliest_at": "2026-09-11T11:19:21.992351Z",
+      "latest_at": "2026-09-11T11:19:21.992351Z",
       "primary_item": {
-        "id": "ddddf1337ac515a43634ab46bc1dbd7ae392136b",
-        "title": "Anthropic 披露：今年已阻止多起利用 AI 研发生物武器的尝试",
-        "title_zh": "Anthropic 披露：今年已阻止多起利用 AI 研发生物武器的尝试",
+        "id": "69a2c23e5f99391e1ea81888e087bd4dde1de815",
+        "title": "小米开源工业级目标说话人语音识别大模型 CocktailASR-1",
+        "title_zh": "小米开源工业级目标说话人语音识别大模型 CocktailASR-1",
         "title_en": null,
-        "title_original": "Anthropic 披露：今年已阻止多起利用 AI 研发生物武器的尝试",
+        "title_original": "小米开源工业级目标说话人语音识别大模型 CocktailASR-1",
         "summary": null,
         "recommend_reason_zh": null,
-        "url": "https://www.aibase.com/news/30999",
+        "url": "https://www.aibase.com/news/31001",
         "source": "AIbase",
         "source_name": "AIbase"
       },
@@ -1161,7 +1242,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-11T10:22:45.963418Z"
+        "scored_at": "2026-09-11T11:20:15.030579Z"
       }
     },
     {
@@ -1209,15 +1290,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7341,
-      "importance": 0.7341,
-      "importance_score": 0.7341,
+      "score": 0.7311,
+      "importance": 0.7311,
+      "importance_score": 0.7311,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.77,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7308,
+        "recency": 0.7141,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1242,7 +1323,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-11T10:22:45.963418Z"
+        "scored_at": "2026-09-11T11:20:15.030579Z"
       }
     },
     {
@@ -1290,15 +1371,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7287,
-      "importance": 0.7287,
-      "importance_score": 0.7287,
+      "score": 0.725,
+      "importance": 0.725,
+      "importance_score": 0.725,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.66,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8837,
+        "recency": 0.8634,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1323,7 +1404,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-11T10:22:45.963418Z"
+        "scored_at": "2026-09-11T11:20:15.030579Z"
       }
     },
     {
@@ -1371,15 +1452,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8052,
-      "importance": 0.8052,
-      "importance_score": 0.8052,
+      "score": 0.802,
+      "importance": 0.802,
+      "importance_score": 0.802,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.7844,
+        "recency": 0.7664,
         "story_heat": 0.0
       },
       "category": "official",
@@ -1406,7 +1487,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-11T10:22:45.963418Z"
+        "scored_at": "2026-09-11T11:20:15.030579Z"
       }
     },
     {
@@ -1454,15 +1535,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7414,
-      "importance": 0.7414,
-      "importance_score": 0.7414,
+      "score": 0.7384,
+      "importance": 0.7384,
+      "importance_score": 0.7384,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.79,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.738,
+        "recency": 0.7211,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1487,26 +1568,26 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-11T10:22:45.963418Z"
+        "scored_at": "2026-09-11T11:20:15.030579Z"
       }
     },
     {
-      "story_id": "story_d50940abf29c",
-      "title": "Cursor发布Projects功能，一人指挥数千个AI智能体承包大型开发",
-      "url": "https://www.aibase.com/news/30993",
-      "primary_url": "https://www.aibase.com/news/30993",
+      "story_id": "story_39d2731bcaac",
+      "title": "Anthropic 披露：今年已阻止多起利用 AI 研发生物武器的尝试",
+      "url": "https://www.aibase.com/news/30999",
+      "primary_url": "https://www.aibase.com/news/30999",
       "source": "AIbase",
       "source_name": "AIbase",
       "sources": [
         {
-          "id": "57d3c33a3bb2c0ef39a5659f92590a45e62e76af",
-          "title": "Cursor发布Projects功能，一人指挥数千个AI智能体承包大型开发",
-          "title_zh": "Cursor发布Projects功能，一人指挥数千个AI智能体承包大型开发",
+          "id": "ddddf1337ac515a43634ab46bc1dbd7ae392136b",
+          "title": "Anthropic 披露：今年已阻止多起利用 AI 研发生物武器的尝试",
+          "title_zh": "Anthropic 披露：今年已阻止多起利用 AI 研发生物武器的尝试",
           "title_en": null,
-          "title_original": "Cursor发布Projects功能，一人指挥数千个AI智能体承包大型开发",
+          "title_original": "Anthropic 披露：今年已阻止多起利用 AI 研发生物武器的尝试",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/30993",
+          "url": "https://www.aibase.com/news/30999",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
@@ -1519,14 +1600,14 @@
       ],
       "items": [
         {
-          "id": "57d3c33a3bb2c0ef39a5659f92590a45e62e76af",
-          "title": "Cursor发布Projects功能，一人指挥数千个AI智能体承包大型开发",
-          "title_zh": "Cursor发布Projects功能，一人指挥数千个AI智能体承包大型开发",
+          "id": "ddddf1337ac515a43634ab46bc1dbd7ae392136b",
+          "title": "Anthropic 披露：今年已阻止多起利用 AI 研发生物武器的尝试",
+          "title_zh": "Anthropic 披露：今年已阻止多起利用 AI 研发生物武器的尝试",
           "title_en": null,
-          "title_original": "Cursor发布Projects功能，一人指挥数千个AI智能体承包大型开发",
+          "title_original": "Anthropic 披露：今年已阻止多起利用 AI 研发生物武器的尝试",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/30993",
+          "url": "https://www.aibase.com/news/30999",
           "source": "AIbase",
           "source_name": "AIbase",
           "site_id": "aibase",
@@ -1535,15 +1616,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
+      "score": 0.7635,
+      "importance": 0.7635,
+      "importance_score": 0.7635,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.72,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 1.0,
+        "recency": 0.9771,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1554,14 +1635,14 @@
       "earliest_at": "2026-09-11T09:43:00.741041Z",
       "latest_at": "2026-09-11T09:43:00.741041Z",
       "primary_item": {
-        "id": "57d3c33a3bb2c0ef39a5659f92590a45e62e76af",
-        "title": "Cursor发布Projects功能，一人指挥数千个AI智能体承包大型开发",
-        "title_zh": "Cursor发布Projects功能，一人指挥数千个AI智能体承包大型开发",
+        "id": "ddddf1337ac515a43634ab46bc1dbd7ae392136b",
+        "title": "Anthropic 披露：今年已阻止多起利用 AI 研发生物武器的尝试",
+        "title_zh": "Anthropic 披露：今年已阻止多起利用 AI 研发生物武器的尝试",
         "title_en": null,
-        "title_original": "Cursor发布Projects功能，一人指挥数千个AI智能体承包大型开发",
+        "title_original": "Anthropic 披露：今年已阻止多起利用 AI 研发生物武器的尝试",
         "summary": null,
         "recommend_reason_zh": null,
-        "url": "https://www.aibase.com/news/30993",
+        "url": "https://www.aibase.com/news/30999",
         "source": "AIbase",
         "source_name": "AIbase"
       },
@@ -1569,88 +1650,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-11T10:22:45.963418Z"
-      }
-    },
-    {
-      "story_id": "story_ce9846509246",
-      "title": "Cognition 工程师用 Devin 智能体完成 RSA-260 因式分解，刷新公开纪录",
-      "url": "https://cognition.com/blog/factoring-rsa-260",
-      "primary_url": "https://cognition.com/blog/factoring-rsa-260",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "a09a1d70d0df00aa7877debe7eca7b306cce604a",
-          "title": "Cognition 工程师用 Devin 智能体完成 RSA-260 因式分解，刷新公开纪录",
-          "title_zh": "Cognition 工程师用 Devin 智能体完成 RSA-260 因式分解，刷新公开纪录",
-          "title_en": null,
-          "title_original": "Cognition 工程师用 Devin 智能体完成 RSA-260 因式分解，刷新公开纪录",
-          "summary": "Cognition 员工 samyok 率团队驱动多个 Devin 智能体构建了高性能 GPU 格子筛，对 260 位的 RSA-260 完成因式分解，刷新此前 RSA-250（2020 年 2 月）保持的公开 RSA 挑战纪录。",
-          "recommend_reason_zh": null,
-          "url": "https://cognition.com/blog/factoring-rsa-260",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-09-10T10:50:45.032000Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Hacker News 热门（buzzing.cc 中文翻译）"
-      ],
-      "items": [
-        {
-          "id": "a09a1d70d0df00aa7877debe7eca7b306cce604a",
-          "title": "Cognition 工程师用 Devin 智能体完成 RSA-260 因式分解，刷新公开纪录",
-          "title_zh": "Cognition 工程师用 Devin 智能体完成 RSA-260 因式分解，刷新公开纪录",
-          "title_en": null,
-          "title_original": "Cognition 工程师用 Devin 智能体完成 RSA-260 因式分解，刷新公开纪录",
-          "summary": "Cognition 员工 samyok 率团队驱动多个 Devin 智能体构建了高性能 GPU 格子筛，对 260 位的 RSA-260 完成因式分解，刷新此前 RSA-250（2020 年 2 月）保持的公开 RSA 挑战纪录。",
-          "recommend_reason_zh": null,
-          "url": "https://cognition.com/blog/factoring-rsa-260",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-09-10T10:50:45.032000Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.729,
-      "importance": 0.729,
-      "importance_score": 0.729,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.76,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7187,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-09-10T10:50:45.032000Z",
-      "latest_at": "2026-09-10T10:50:45.032000Z",
-      "primary_item": {
-        "id": "a09a1d70d0df00aa7877debe7eca7b306cce604a",
-        "title": "Cognition 工程师用 Devin 智能体完成 RSA-260 因式分解，刷新公开纪录",
-        "title_zh": "Cognition 工程师用 Devin 智能体完成 RSA-260 因式分解，刷新公开纪录",
-        "title_en": null,
-        "title_original": "Cognition 工程师用 Devin 智能体完成 RSA-260 因式分解，刷新公开纪录",
-        "summary": "Cognition 员工 samyok 率团队驱动多个 Devin 智能体构建了高性能 GPU 格子筛，对 260 位的 RSA-260 完成因式分解，刷新此前 RSA-250（2020 年 2 月）保持的公开 RSA 挑战纪录。",
-        "recommend_reason_zh": null,
-        "url": "https://cognition.com/blog/factoring-rsa-260",
-        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-        "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 1,
-      "persona_meta": {
-        "mode": "rules_fallback",
-        "scored_at": "2026-09-11T10:22:45.963418Z"
+        "scored_at": "2026-09-11T11:20:15.030579Z"
       }
     },
     {
@@ -1698,15 +1698,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8019,
-      "importance": 0.8019,
-      "importance_score": 0.8019,
+      "score": 0.7987,
+      "importance": 0.7987,
+      "importance_score": 0.7987,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.766,
+        "recency": 0.7485,
         "story_heat": 0.0
       },
       "category": "official",
@@ -1733,7 +1733,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-11T10:22:45.963418Z"
+        "scored_at": "2026-09-11T11:20:15.030579Z"
       }
     }
   ]

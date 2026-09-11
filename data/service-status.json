@@ -1,15 +1,15 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-11T09:43:00.741041Z",
+  "generated_at": "2026-09-11T11:19:21.992351Z",
   "ok": true,
-  "active_count": 2,
+  "active_count": 1,
   "providers": [
     {
       "id": "openai",
       "name": "OpenAI",
       "status_url": "https://status.openai.com/",
       "ok": true,
-      "active_count": 2
+      "active_count": 1
     }
   ],
   "incidents": [
@@ -18,26 +18,13 @@
       "provider": "OpenAI",
       "title": "Elevated errors for GPT-5.6 Sol on the API",
       "title_zh": "Elevated errors for GPT-5.6 Sol on the API",
-      "status": "identified",
-      "impact": "minor",
-      "started_at": "2026-09-11T09:08:15Z",
-      "updated_at": "2026-09-11T09:08:15Z",
-      "message": "We have identified that users are experiencing elevated errors for the impacted services. We are working on implementing a mitigation.",
-      "affected_components": [],
-      "url": "https://status.openai.com/incidents/01M27VK1VN54RQJGJEHB5JTQJJ"
-    },
-    {
-      "id": "01M27Q9GH7WVKNA61ZR3RDMSY5",
-      "provider": "OpenAI",
-      "title": "Elevated errors for ChatGPT users in Europe",
-      "title_zh": "Elevated errors for ChatGPT users in Europe",
       "status": "monitoring",
       "impact": "minor",
-      "started_at": "2026-09-11T07:53:08Z",
-      "updated_at": "2026-09-11T08:37:26Z",
-      "message": "We have applied the mitigation and are monitoring the recovery.",
+      "started_at": "2026-09-11T09:08:15Z",
+      "updated_at": "2026-09-11T10:09:47Z",
+      "message": "We have brought additional capacity online and are seeing improvements for some GPT-5.6 Sol API traffic. We continue to mitigate elevated errors affecting Chat Completions and Responses and are monitoring recovery",
       "affected_components": [],
-      "url": "https://status.openai.com/incidents/01M27Q9GH7WVKNA61ZR3RDMSY5"
+      "url": "https://status.openai.com/incidents/01M27VK1VN54RQJGJEHB5JTQJJ"
     }
   ]
 }
