@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T01:06:37.868103Z",
+  "generated_at": "2026-09-11T05:58:00.434438Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -48,15 +48,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8458,
-      "importance": 0.8458,
-      "importance_score": 0.8458,
+      "score": 0.8351,
+      "importance": 0.8351,
+      "importance_score": 0.8351,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.99,
-        "recency": 0.8767,
+        "recency": 0.8173,
         "story_heat": 0.0
       },
       "category": "official",
@@ -83,7 +83,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-11T01:37:56.701454Z"
+        "scored_at": "2026-09-11T06:30:18.623140Z"
       }
     },
     {
@@ -131,15 +131,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8429,
-      "importance": 0.8429,
-      "importance_score": 0.8429,
+      "score": 0.8313,
+      "importance": 0.8313,
+      "importance_score": 0.8313,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.9495,
+        "recency": 0.8852,
         "story_heat": 0.0
       },
       "category": "official",
@@ -166,7 +166,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-11T01:37:56.701454Z"
+        "scored_at": "2026-09-11T06:30:18.623140Z"
       }
     },
     {
@@ -214,15 +214,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8347,
-      "importance": 0.8347,
-      "importance_score": 0.8347,
+      "score": 0.8232,
+      "importance": 0.8232,
+      "importance_score": 0.8232,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.9486,
+        "recency": 0.8843,
         "story_heat": 0.0
       },
       "category": "official",
@@ -249,7 +249,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-11T01:37:56.701454Z"
+        "scored_at": "2026-09-11T06:30:18.623140Z"
       }
     },
     {
@@ -297,15 +297,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8218,
-      "importance": 0.8218,
-      "importance_score": 0.8218,
+      "score": 0.8111,
+      "importance": 0.8111,
+      "importance_score": 0.8111,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.8767,
+        "recency": 0.8173,
         "story_heat": 0.0
       },
       "category": "official",
@@ -332,7 +332,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-11T01:37:56.701454Z"
+        "scored_at": "2026-09-11T06:30:18.623140Z"
       }
     },
     {
@@ -409,15 +409,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8061,
-      "importance": 0.8061,
-      "importance_score": 0.8061,
+      "score": 0.7946,
+      "importance": 0.7946,
+      "importance_score": 0.7946,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.8,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9418,
+        "recency": 0.878,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -444,7 +444,118 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-11T01:37:56.701454Z"
+        "scored_at": "2026-09-11T06:30:18.623140Z"
+      }
+    },
+    {
+      "story_id": "story_35fb0c352519",
+      "title": "OpenAI 暂停 ChatGPT Pro 200 美元档新用户注册与升级",
+      "url": "https://www.aibase.com/news/30980",
+      "primary_url": "https://www.aibase.com/news/30980",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "45f86a527ccd9ac0b28a1adacc5a704038205112",
+          "title": "OpenAI 暂停 ChatGPT Pro 200 美元档新用户注册与升级",
+          "title_zh": "OpenAI 暂停 ChatGPT Pro 200 美元档新用户注册与升级",
+          "title_en": null,
+          "title_original": "OpenAI 暂停 ChatGPT Pro 200 美元档新用户注册与升级",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/30980",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-09-11T05:58:00.434438Z"
+        },
+        {
+          "id": "470422fef94d4eac1cd1ce5ab8f2d9a51a2fcb1a",
+          "title": "算力需求超载！OpenAI暂停ChatGPT Pro 200美元档新用户注册与升级",
+          "title_zh": "算力需求超载！OpenAI暂停ChatGPT Pro 200美元档新用户注册与升级",
+          "title_en": null,
+          "title_original": "算力需求超载！OpenAI暂停ChatGPT Pro 200美元档新用户注册与升级",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/30974",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-09-11T01:06:37.868103Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "45f86a527ccd9ac0b28a1adacc5a704038205112",
+          "title": "OpenAI 暂停 ChatGPT Pro 200 美元档新用户注册与升级",
+          "title_zh": "OpenAI 暂停 ChatGPT Pro 200 美元档新用户注册与升级",
+          "title_en": null,
+          "title_original": "OpenAI 暂停 ChatGPT Pro 200 美元档新用户注册与升级",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/30980",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-09-11T05:58:00.434438Z"
+        },
+        {
+          "id": "470422fef94d4eac1cd1ce5ab8f2d9a51a2fcb1a",
+          "title": "算力需求超载！OpenAI暂停ChatGPT Pro 200美元档新用户注册与升级",
+          "title_zh": "算力需求超载！OpenAI暂停ChatGPT Pro 200美元档新用户注册与升级",
+          "title_en": null,
+          "title_original": "算力需求超载！OpenAI暂停ChatGPT Pro 200美元档新用户注册与升级",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/30974",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-09-11T01:06:37.868103Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7926,
+      "importance": 0.7926,
+      "importance_score": 0.7926,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-09-11T01:06:37.868103Z",
+      "latest_at": "2026-09-11T05:58:00.434438Z",
+      "primary_item": {
+        "id": "45f86a527ccd9ac0b28a1adacc5a704038205112",
+        "title": "OpenAI 暂停 ChatGPT Pro 200 美元档新用户注册与升级",
+        "title_zh": "OpenAI 暂停 ChatGPT Pro 200 美元档新用户注册与升级",
+        "title_en": null,
+        "title_original": "OpenAI 暂停 ChatGPT Pro 200 美元档新用户注册与升级",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://www.aibase.com/news/30980",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 1,
+      "persona_meta": {
+        "mode": "rules_fallback",
+        "scored_at": "2026-09-11T06:30:18.623140Z"
       }
     },
     {
@@ -492,15 +603,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.832,
-      "importance": 0.832,
-      "importance_score": 0.832,
+      "score": 0.8207,
+      "importance": 0.8207,
+      "importance_score": 0.8207,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.9336,
+        "recency": 0.8703,
         "story_heat": 0.0
       },
       "category": "official",
@@ -527,7 +638,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-11T01:37:56.701454Z"
+        "scored_at": "2026-09-11T06:30:18.623140Z"
       }
     },
     {
@@ -575,15 +686,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8275,
-      "importance": 0.8275,
-      "importance_score": 0.8275,
+      "score": 0.817,
+      "importance": 0.817,
+      "importance_score": 0.817,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.8642,
+        "recency": 0.8056,
         "story_heat": 0.0
       },
       "category": "official",
@@ -610,7 +721,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-11T01:37:56.701454Z"
+        "scored_at": "2026-09-11T06:30:18.623140Z"
       }
     },
     {
@@ -687,15 +798,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.7957,
-      "importance": 0.7957,
-      "importance_score": 0.7957,
+      "score": 0.7849,
+      "importance": 0.7849,
+      "importance_score": 0.7849,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.8,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8839,
+        "recency": 0.824,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -722,7 +833,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-11T01:37:56.701454Z"
+        "scored_at": "2026-09-11T06:30:18.623140Z"
       }
     },
     {
@@ -770,15 +881,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7722,
-      "importance": 0.7722,
-      "importance_score": 0.7722,
+      "score": 0.7628,
+      "importance": 0.7628,
+      "importance_score": 0.7628,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.87,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7756,
+        "recency": 0.7231,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -804,7 +915,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-11T01:37:56.701454Z"
+        "scored_at": "2026-09-11T06:30:18.623140Z"
       }
     },
     {
@@ -852,15 +963,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7703,
-      "importance": 0.7703,
-      "importance_score": 0.7703,
+      "score": 0.7598,
+      "importance": 0.7598,
+      "importance_score": 0.7598,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.81,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8651,
+        "recency": 0.8065,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -886,89 +997,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-11T01:37:56.701454Z"
-      }
-    },
-    {
-      "story_id": "story_6365ab05d91a",
-      "title": "OpenAI正式上线GPT-Live-1 API：支持打断处理、工具调用与电话智能体",
-      "url": "https://www.aibase.com/news/30973",
-      "primary_url": "https://www.aibase.com/news/30973",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "8692d836f0d5f218f0885c54181def4acee2c38a",
-          "title": "OpenAI正式上线GPT-Live-1 API：支持打断处理、工具调用与电话智能体",
-          "title_zh": "OpenAI正式上线GPT-Live-1 API：支持打断处理、工具调用与电话智能体",
-          "title_en": null,
-          "title_original": "OpenAI正式上线GPT-Live-1 API：支持打断处理、工具调用与电话智能体",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/30973",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-09-11T01:06:37.868103Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "8692d836f0d5f218f0885c54181def4acee2c38a",
-          "title": "OpenAI正式上线GPT-Live-1 API：支持打断处理、工具调用与电话智能体",
-          "title_zh": "OpenAI正式上线GPT-Live-1 API：支持打断处理、工具调用与电话智能体",
-          "title_en": null,
-          "title_original": "OpenAI正式上线GPT-Live-1 API：支持打断处理、工具调用与电话智能体",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/30973",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-09-11T01:06:37.868103Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 1.0,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-09-11T01:06:37.868103Z",
-      "latest_at": "2026-09-11T01:06:37.868103Z",
-      "primary_item": {
-        "id": "8692d836f0d5f218f0885c54181def4acee2c38a",
-        "title": "OpenAI正式上线GPT-Live-1 API：支持打断处理、工具调用与电话智能体",
-        "title_zh": "OpenAI正式上线GPT-Live-1 API：支持打断处理、工具调用与电话智能体",
-        "title_en": null,
-        "title_original": "OpenAI正式上线GPT-Live-1 API：支持打断处理、工具调用与电话智能体",
-        "summary": null,
-        "recommend_reason_zh": null,
-        "url": "https://www.aibase.com/news/30973",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 1,
-      "persona_meta": {
-        "mode": "rules_fallback",
-        "scored_at": "2026-09-11T01:37:56.701454Z"
+        "scored_at": "2026-09-11T06:30:18.623140Z"
       }
     },
     {
@@ -1016,15 +1045,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8251,
-      "importance": 0.8251,
-      "importance_score": 0.8251,
+      "score": 0.8142,
+      "importance": 0.8142,
+      "importance_score": 0.8142,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.8953,
+        "recency": 0.8346,
         "story_heat": 0.0
       },
       "category": "official",
@@ -1051,7 +1080,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-11T01:37:56.701454Z"
+        "scored_at": "2026-09-11T06:30:18.623140Z"
       }
     },
     {
@@ -1099,15 +1128,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7638,
-      "importance": 0.7638,
-      "importance_score": 0.7638,
+      "score": 0.7529,
+      "importance": 0.7529,
+      "importance_score": 0.7529,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.77,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8957,
+        "recency": 0.835,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1133,89 +1162,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-11T01:37:56.701454Z"
-      }
-    },
-    {
-      "story_id": "story_dbd98c6c43b6",
-      "title": "DeepSeek 发布 V4.1 Flash：552B MoE 多模态模型，同步开源并下调 API 定价",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzk0OTYwNzc3NQ%3D%3D&mid=2247485817&idx=1&sn=627dd80114901f3fd8717e2c13feaf6a",
-      "primary_url": "https://mp.weixin.qq.com/s?__biz=Mzk0OTYwNzc3NQ%3D%3D&mid=2247485817&idx=1&sn=627dd80114901f3fd8717e2c13feaf6a",
-      "source": "公众号：DeepSeek（深度求索）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "95d68172cef7a2235371ea89c2a7e0fc13ed18ac",
-          "title": "DeepSeek 发布 V4.1 Flash：552B MoE 多模态模型，同步开源并下调 API 定价",
-          "title_zh": "DeepSeek 发布 V4.1 Flash：552B MoE 多模态模型，同步开源并下调 API 定价",
-          "title_en": null,
-          "title_original": "DeepSeek 发布 V4.1 Flash：552B MoE 多模态模型，同步开源并下调 API 定价",
-          "summary": "DeepSeek 正式发布 V4.1 Flash，全新 Causal-Encoder-Decoder 结构的 552B 参数 MoE 模型，输入激活 8B、输出激活 16B，具备原生多模态视觉理解，基准测试超越包括 DeepSeek V4 Pro 在内的旗舰模型。",
-          "recommend_reason_zh": null,
-          "url": "https://mp.weixin.qq.com/s?__biz=Mzk0OTYwNzc3NQ%3D%3D&mid=2247485817&idx=1&sn=627dd80114901f3fd8717e2c13feaf6a",
-          "source": "公众号：DeepSeek（深度求索）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-09-10T05:44:15Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "公众号：DeepSeek（深度求索）"
-      ],
-      "items": [
-        {
-          "id": "95d68172cef7a2235371ea89c2a7e0fc13ed18ac",
-          "title": "DeepSeek 发布 V4.1 Flash：552B MoE 多模态模型，同步开源并下调 API 定价",
-          "title_zh": "DeepSeek 发布 V4.1 Flash：552B MoE 多模态模型，同步开源并下调 API 定价",
-          "title_en": null,
-          "title_original": "DeepSeek 发布 V4.1 Flash：552B MoE 多模态模型，同步开源并下调 API 定价",
-          "summary": "DeepSeek 正式发布 V4.1 Flash，全新 Causal-Encoder-Decoder 结构的 552B 参数 MoE 模型，输入激活 8B、输出激活 16B，具备原生多模态视觉理解，基准测试超越包括 DeepSeek V4 Pro 在内的旗舰模型。",
-          "recommend_reason_zh": null,
-          "url": "https://mp.weixin.qq.com/s?__biz=Mzk0OTYwNzc3NQ%3D%3D&mid=2247485817&idx=1&sn=627dd80114901f3fd8717e2c13feaf6a",
-          "source": "公众号：DeepSeek（深度求索）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-09-10T05:44:15Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7627,
-      "importance": 0.7627,
-      "importance_score": 0.7627,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.85,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.756,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-09-10T05:44:15Z",
-      "latest_at": "2026-09-10T05:44:15Z",
-      "primary_item": {
-        "id": "95d68172cef7a2235371ea89c2a7e0fc13ed18ac",
-        "title": "DeepSeek 发布 V4.1 Flash：552B MoE 多模态模型，同步开源并下调 API 定价",
-        "title_zh": "DeepSeek 发布 V4.1 Flash：552B MoE 多模态模型，同步开源并下调 API 定价",
-        "title_en": null,
-        "title_original": "DeepSeek 发布 V4.1 Flash：552B MoE 多模态模型，同步开源并下调 API 定价",
-        "summary": "DeepSeek 正式发布 V4.1 Flash，全新 Causal-Encoder-Decoder 结构的 552B 参数 MoE 模型，输入激活 8B、输出激活 16B，具备原生多模态视觉理解，基准测试超越包括 DeepSeek V4 Pro 在内的旗舰模型。",
-        "recommend_reason_zh": null,
-        "url": "https://mp.weixin.qq.com/s?__biz=Mzk0OTYwNzc3NQ%3D%3D&mid=2247485817&idx=1&sn=627dd80114901f3fd8717e2c13feaf6a",
-        "source": "公众号：DeepSeek（深度求索）",
-        "source_name": "AI HOT"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 1,
-      "persona_meta": {
-        "mode": "rules_fallback",
-        "scored_at": "2026-09-11T01:37:56.701454Z"
+        "scored_at": "2026-09-11T06:30:18.623140Z"
       }
     },
     {
@@ -1263,15 +1210,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8186,
-      "importance": 0.8186,
-      "importance_score": 0.8186,
+      "score": 0.8092,
+      "importance": 0.8092,
+      "importance_score": 0.8092,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.7699,
+        "recency": 0.7177,
         "story_heat": 0.0
       },
       "category": "official",
@@ -1298,7 +1245,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-11T01:37:56.701454Z"
+        "scored_at": "2026-09-11T06:30:18.623140Z"
       }
     },
     {
@@ -1346,21 +1293,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7516,
-      "importance": 0.7516,
-      "importance_score": 0.7516,
+      "score": 0.7415,
+      "importance": 0.7415,
+      "importance_score": 0.7415,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.77,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8275,
+        "recency": 0.7715,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-09-10T12:00:00Z",
       "latest_at": "2026-09-10T12:00:00Z",
@@ -1380,7 +1326,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-11T01:37:56.701454Z"
+        "scored_at": "2026-09-11T06:30:18.623140Z"
       }
     },
     {
@@ -1428,15 +1374,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7497,
-      "importance": 0.7497,
-      "importance_score": 0.7497,
+      "score": 0.7402,
+      "importance": 0.7402,
+      "importance_score": 0.7402,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.79,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7841,
+        "recency": 0.731,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1461,7 +1407,170 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-11T01:37:56.701454Z"
+        "scored_at": "2026-09-11T06:30:18.623140Z"
+      }
+    },
+    {
+      "story_id": "story_c6c0b210dfe0",
+      "title": "Agent商业化驶入深水区，蚂蚁推出APASS补上“信任基础设施”",
+      "url": "https://www.aibase.com/news/30988",
+      "primary_url": "https://www.aibase.com/news/30988",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "5dcfba74053544c31cb84f7c655b125fc5f4b969",
+          "title": "Agent商业化驶入深水区，蚂蚁推出APASS补上“信任基础设施”",
+          "title_zh": "Agent商业化驶入深水区，蚂蚁推出APASS补上“信任基础设施”",
+          "title_en": null,
+          "title_original": "Agent商业化驶入深水区，蚂蚁推出APASS补上“信任基础设施”",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/30988",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-09-11T05:58:00.434438Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "5dcfba74053544c31cb84f7c655b125fc5f4b969",
+          "title": "Agent商业化驶入深水区，蚂蚁推出APASS补上“信任基础设施”",
+          "title_zh": "Agent商业化驶入深水区，蚂蚁推出APASS补上“信任基础设施”",
+          "title_en": null,
+          "title_original": "Agent商业化驶入深水区，蚂蚁推出APASS补上“信任基础设施”",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/30988",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-09-11T05:58:00.434438Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-09-11T05:58:00.434438Z",
+      "latest_at": "2026-09-11T05:58:00.434438Z",
+      "primary_item": {
+        "id": "5dcfba74053544c31cb84f7c655b125fc5f4b969",
+        "title": "Agent商业化驶入深水区，蚂蚁推出APASS补上“信任基础设施”",
+        "title_zh": "Agent商业化驶入深水区，蚂蚁推出APASS补上“信任基础设施”",
+        "title_en": null,
+        "title_original": "Agent商业化驶入深水区，蚂蚁推出APASS补上“信任基础设施”",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://www.aibase.com/news/30988",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 1,
+      "persona_meta": {
+        "mode": "rules_fallback",
+        "scored_at": "2026-09-11T06:30:18.623140Z"
+      }
+    },
+    {
+      "story_id": "story_5026558c852c",
+      "title": "Grok Bot 摘要 SpaceX CFO Bret Johnsen 在 Goldman Sachs Communacopia 的演讲要点 / Grok @Bot summary of SpaceX CFO talk",
+      "url": "https://x.com/elonmusk/status/2098217236771295567",
+      "primary_url": "https://x.com/elonmusk/status/2098217236771295567",
+      "source": "X：Elon Musk (@elonmusk, xAI)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "f9183098768f67ec68f0e13db499958386d6c247",
+          "title": "Grok Bot 摘要 SpaceX CFO Bret Johnsen 在 Goldman Sachs Communacopia 的演讲要点 / Grok @Bot summary of SpaceX CFO talk",
+          "title_zh": "Grok Bot 摘要 SpaceX CFO Bret Johnsen 在 Goldman Sachs Communacopia 的演讲要点",
+          "title_en": "Grok @Bot summary of SpaceX CFO talk",
+          "title_original": "Grok @Bot summary of SpaceX CFO talk",
+          "summary": "Elon Musk 转发 Grok Bot 对 SpaceX CFO Bret Johnsen 在 Goldman Sachs Communacopia 演讲的摘要。",
+          "recommend_reason_zh": null,
+          "url": "https://x.com/elonmusk/status/2098217236771295567",
+          "source": "X：Elon Musk (@elonmusk, xAI)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-09-11T01:09:06Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "X：Elon Musk (@elonmusk, xAI)"
+      ],
+      "items": [
+        {
+          "id": "f9183098768f67ec68f0e13db499958386d6c247",
+          "title": "Grok Bot 摘要 SpaceX CFO Bret Johnsen 在 Goldman Sachs Communacopia 的演讲要点 / Grok @Bot summary of SpaceX CFO talk",
+          "title_zh": "Grok Bot 摘要 SpaceX CFO Bret Johnsen 在 Goldman Sachs Communacopia 的演讲要点",
+          "title_en": "Grok @Bot summary of SpaceX CFO talk",
+          "title_original": "Grok @Bot summary of SpaceX CFO talk",
+          "summary": "Elon Musk 转发 Grok Bot 对 SpaceX CFO Bret Johnsen 在 Goldman Sachs Communacopia 演讲的摘要。",
+          "recommend_reason_zh": null,
+          "url": "https://x.com/elonmusk/status/2098217236771295567",
+          "source": "X：Elon Musk (@elonmusk, xAI)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-09-11T01:09:06Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7375,
+      "importance": 0.7375,
+      "importance_score": 0.7375,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.66,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9328,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-09-11T01:09:06Z",
+      "latest_at": "2026-09-11T01:09:06Z",
+      "primary_item": {
+        "id": "f9183098768f67ec68f0e13db499958386d6c247",
+        "title": "Grok Bot 摘要 SpaceX CFO Bret Johnsen 在 Goldman Sachs Communacopia 的演讲要点 / Grok @Bot summary of SpaceX CFO talk",
+        "title_zh": "Grok Bot 摘要 SpaceX CFO Bret Johnsen 在 Goldman Sachs Communacopia 的演讲要点",
+        "title_en": "Grok @Bot summary of SpaceX CFO talk",
+        "title_original": "Grok @Bot summary of SpaceX CFO talk",
+        "summary": "Elon Musk 转发 Grok Bot 对 SpaceX CFO Bret Johnsen 在 Goldman Sachs Communacopia 演讲的摘要。",
+        "recommend_reason_zh": null,
+        "url": "https://x.com/elonmusk/status/2098217236771295567",
+        "source": "X：Elon Musk (@elonmusk, xAI)",
+        "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 1,
+      "persona_meta": {
+        "mode": "rules_fallback",
+        "scored_at": "2026-09-11T06:30:18.623140Z"
       }
     },
     {
@@ -1509,15 +1618,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7451,
-      "importance": 0.7451,
-      "importance_score": 0.7451,
+      "score": 0.7359,
+      "importance": 0.7359,
+      "importance_score": 0.7359,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.79,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7585,
+        "recency": 0.7071,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1542,89 +1651,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-11T01:37:56.701454Z"
-      }
-    },
-    {
-      "story_id": "story_35fb0c352519",
-      "title": "算力需求超载！OpenAI暂停ChatGPT Pro 200美元档新用户注册与升级",
-      "url": "https://www.aibase.com/news/30974",
-      "primary_url": "https://www.aibase.com/news/30974",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "470422fef94d4eac1cd1ce5ab8f2d9a51a2fcb1a",
-          "title": "算力需求超载！OpenAI暂停ChatGPT Pro 200美元档新用户注册与升级",
-          "title_zh": "算力需求超载！OpenAI暂停ChatGPT Pro 200美元档新用户注册与升级",
-          "title_en": null,
-          "title_original": "算力需求超载！OpenAI暂停ChatGPT Pro 200美元档新用户注册与升级",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/30974",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-09-11T01:06:37.868103Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "470422fef94d4eac1cd1ce5ab8f2d9a51a2fcb1a",
-          "title": "算力需求超载！OpenAI暂停ChatGPT Pro 200美元档新用户注册与升级",
-          "title_zh": "算力需求超载！OpenAI暂停ChatGPT Pro 200美元档新用户注册与升级",
-          "title_en": null,
-          "title_original": "算力需求超载！OpenAI暂停ChatGPT Pro 200美元档新用户注册与升级",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/30974",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-09-11T01:06:37.868103Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 1.0,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-09-11T01:06:37.868103Z",
-      "latest_at": "2026-09-11T01:06:37.868103Z",
-      "primary_item": {
-        "id": "470422fef94d4eac1cd1ce5ab8f2d9a51a2fcb1a",
-        "title": "算力需求超载！OpenAI暂停ChatGPT Pro 200美元档新用户注册与升级",
-        "title_zh": "算力需求超载！OpenAI暂停ChatGPT Pro 200美元档新用户注册与升级",
-        "title_en": null,
-        "title_original": "算力需求超载！OpenAI暂停ChatGPT Pro 200美元档新用户注册与升级",
-        "summary": null,
-        "recommend_reason_zh": null,
-        "url": "https://www.aibase.com/news/30974",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 1,
-      "persona_meta": {
-        "mode": "rules_fallback",
-        "scored_at": "2026-09-11T01:37:56.701454Z"
+        "scored_at": "2026-09-11T06:30:18.623140Z"
       }
     },
     {
@@ -1672,15 +1699,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.736,
-      "importance": 0.736,
-      "importance_score": 0.736,
+      "score": 0.7253,
+      "importance": 0.7253,
+      "importance_score": 0.7253,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.69,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8745,
+        "recency": 0.8152,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1705,7 +1732,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-11T01:37:56.701454Z"
+        "scored_at": "2026-09-11T06:30:18.623140Z"
       }
     }
   ]
