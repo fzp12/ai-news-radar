@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T23:10:11.465670Z",
+  "generated_at": "2026-09-11T01:06:37.868103Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -48,15 +48,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8503,
-      "importance": 0.8503,
-      "importance_score": 0.8503,
+      "score": 0.8458,
+      "importance": 0.8458,
+      "importance_score": 0.8458,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.99,
-        "recency": 0.9016,
+        "recency": 0.8767,
         "story_heat": 0.0
       },
       "category": "official",
@@ -83,7 +83,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-10T23:43:16.111903Z"
+        "scored_at": "2026-09-11T01:37:56.701454Z"
       }
     },
     {
@@ -131,15 +131,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8478,
-      "importance": 0.8478,
-      "importance_score": 0.8478,
+      "score": 0.8429,
+      "importance": 0.8429,
+      "importance_score": 0.8429,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.9765,
+        "recency": 0.9495,
         "story_heat": 0.0
       },
       "category": "official",
@@ -166,7 +166,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-10T23:43:16.111903Z"
+        "scored_at": "2026-09-11T01:37:56.701454Z"
       }
     },
     {
@@ -214,15 +214,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8396,
-      "importance": 0.8396,
-      "importance_score": 0.8396,
+      "score": 0.8347,
+      "importance": 0.8347,
+      "importance_score": 0.8347,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.9755,
+        "recency": 0.9486,
         "story_heat": 0.0
       },
       "category": "official",
@@ -249,7 +249,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-10T23:43:16.111903Z"
+        "scored_at": "2026-09-11T01:37:56.701454Z"
       }
     },
     {
@@ -297,15 +297,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8263,
-      "importance": 0.8263,
-      "importance_score": 0.8263,
+      "score": 0.8218,
+      "importance": 0.8218,
+      "importance_score": 0.8218,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.9016,
+        "recency": 0.8767,
         "story_heat": 0.0
       },
       "category": "official",
@@ -332,90 +332,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-10T23:43:16.111903Z"
-      }
-    },
-    {
-      "story_id": "story_18c966d78324",
-      "title": "Codex CLI Cygwin build inputs and matching source for Windows voice",
-      "url": "https://developers.openai.com/codex/changelog",
-      "primary_url": "https://developers.openai.com/codex/changelog",
-      "source": "OpenAI Codex Changelog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "e68db8d85219bed1556b149155beb7759db91bbc",
-          "title": "Codex CLI Cygwin build inputs and matching source for Windows voice",
-          "title_zh": null,
-          "title_en": "Codex CLI Cygwin build inputs and matching source for Windows voice",
-          "title_original": "Codex CLI Cygwin build inputs and matching source for Windows voice",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://developers.openai.com/codex/changelog",
-          "source": "OpenAI Codex Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-09-10T00:00:00Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "OpenAI Codex Changelog"
-      ],
-      "items": [
-        {
-          "id": "e68db8d85219bed1556b149155beb7759db91bbc",
-          "title": "Codex CLI Cygwin build inputs and matching source for Windows voice",
-          "title_zh": null,
-          "title_en": "Codex CLI Cygwin build inputs and matching source for Windows voice",
-          "title_original": "Codex CLI Cygwin build inputs and matching source for Windows voice",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://developers.openai.com/codex/changelog",
-          "source": "OpenAI Codex Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-09-10T00:00:00Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8188,
-      "importance": 0.8188,
-      "importance_score": 0.8188,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 1.0,
-        "recency": 0.7156,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-09-10T00:00:00Z",
-      "latest_at": "2026-09-10T00:00:00Z",
-      "primary_item": {
-        "id": "e68db8d85219bed1556b149155beb7759db91bbc",
-        "title": "Codex CLI Cygwin build inputs and matching source for Windows voice",
-        "title_zh": null,
-        "title_en": "Codex CLI Cygwin build inputs and matching source for Windows voice",
-        "title_original": "Codex CLI Cygwin build inputs and matching source for Windows voice",
-        "summary": null,
-        "recommend_reason_zh": null,
-        "url": "https://developers.openai.com/codex/changelog",
-        "source": "OpenAI Codex Changelog",
-        "source_name": "Official AI Updates"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 1,
-      "persona_meta": {
-        "mode": "rules_fallback",
-        "scored_at": "2026-09-10T23:43:16.111903Z"
+        "scored_at": "2026-09-11T01:37:56.701454Z"
       }
     },
     {
@@ -492,15 +409,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8109,
-      "importance": 0.8109,
-      "importance_score": 0.8109,
+      "score": 0.8061,
+      "importance": 0.8061,
+      "importance_score": 0.8061,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.8,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9686,
+        "recency": 0.9418,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -527,90 +444,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-10T23:43:16.111903Z"
-      }
-    },
-    {
-      "story_id": "story_15857ddbbec1",
-      "title": "Hugging Face 用 Gradio Workflow 重建 Workflow1111，复刻 AUTOMATIC1111 主要功能 / Rebuilding AUTOMATIC1111 with Gradio Workflow",
-      "url": "https://huggingface.co/blog/gradio-workflow-1111",
-      "primary_url": "https://huggingface.co/blog/gradio-workflow-1111",
-      "source": "Hugging Face Blog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "e78747797ab8eaea98f4e279c790cee43817aef7",
-          "title": "Hugging Face 用 Gradio Workflow 重建 Workflow1111，复刻 AUTOMATIC1111 主要功能 / Rebuilding AUTOMATIC1111 with Gradio Workflow",
-          "title_zh": "Hugging Face 用 Gradio Workflow 重建 Workflow1111，复刻 AUTOMATIC1111 主要功能",
-          "title_en": "Rebuilding AUTOMATIC1111 with Gradio Workflow",
-          "title_original": "Rebuilding AUTOMATIC1111 with Gradio Workflow",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://huggingface.co/blog/gradio-workflow-1111",
-          "source": "Hugging Face Blog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-09-10T00:00:00Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Hugging Face Blog"
-      ],
-      "items": [
-        {
-          "id": "e78747797ab8eaea98f4e279c790cee43817aef7",
-          "title": "Hugging Face 用 Gradio Workflow 重建 Workflow1111，复刻 AUTOMATIC1111 主要功能 / Rebuilding AUTOMATIC1111 with Gradio Workflow",
-          "title_zh": "Hugging Face 用 Gradio Workflow 重建 Workflow1111，复刻 AUTOMATIC1111 主要功能",
-          "title_en": "Rebuilding AUTOMATIC1111 with Gradio Workflow",
-          "title_original": "Rebuilding AUTOMATIC1111 with Gradio Workflow",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://huggingface.co/blog/gradio-workflow-1111",
-          "source": "Hugging Face Blog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-09-10T00:00:00Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8088,
-      "importance": 0.8088,
-      "importance_score": 0.8088,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.95,
-        "recency": 0.7156,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-09-10T00:00:00Z",
-      "latest_at": "2026-09-10T00:00:00Z",
-      "primary_item": {
-        "id": "e78747797ab8eaea98f4e279c790cee43817aef7",
-        "title": "Hugging Face 用 Gradio Workflow 重建 Workflow1111，复刻 AUTOMATIC1111 主要功能 / Rebuilding AUTOMATIC1111 with Gradio Workflow",
-        "title_zh": "Hugging Face 用 Gradio Workflow 重建 Workflow1111，复刻 AUTOMATIC1111 主要功能",
-        "title_en": "Rebuilding AUTOMATIC1111 with Gradio Workflow",
-        "title_original": "Rebuilding AUTOMATIC1111 with Gradio Workflow",
-        "summary": null,
-        "recommend_reason_zh": null,
-        "url": "https://huggingface.co/blog/gradio-workflow-1111",
-        "source": "Hugging Face Blog",
-        "source_name": "Official AI Updates"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 1,
-      "persona_meta": {
-        "mode": "rules_fallback",
-        "scored_at": "2026-09-10T23:43:16.111903Z"
+        "scored_at": "2026-09-11T01:37:56.701454Z"
       }
     },
     {
@@ -658,15 +492,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8368,
-      "importance": 0.8368,
-      "importance_score": 0.8368,
+      "score": 0.832,
+      "importance": 0.832,
+      "importance_score": 0.832,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.9601,
+        "recency": 0.9336,
         "story_heat": 0.0
       },
       "category": "official",
@@ -693,112 +527,82 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-10T23:43:16.111903Z"
+        "scored_at": "2026-09-11T01:37:56.701454Z"
       }
     },
     {
-      "story_id": "story_cb7d0c198e24",
-      "title": "OpenAI 在 API 中推出全双工语音模型 GPT-Live-1 / Build more natural voice experiences with GPT‑Live‑1 in the API",
-      "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
-      "primary_url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
+      "story_id": "story_b2726331d325",
+      "title": "OpenAI 在 ChatGPT Work 中推出 Data agent / Now everyone can put data to work",
+      "url": "https://openai.com/index/put-data-to-work",
+      "primary_url": "https://openai.com/index/put-data-to-work",
       "source": "OpenAI News",
       "source_name": "Official AI Updates",
       "sources": [
         {
-          "id": "fa499acdee266b73e44fc3c07d7788607b46c31a",
-          "title": "OpenAI 在 API 中推出全双工语音模型 GPT-Live-1 / Build more natural voice experiences with GPT‑Live‑1 in the API",
-          "title_zh": "OpenAI 在 API 中推出全双工语音模型 GPT-Live-1",
-          "title_en": "Build more natural voice experiences with GPT‑Live‑1 in the API",
-          "title_original": "Build more natural voice experiences with GPT‑Live‑1 in the API",
+          "id": "324abe5a685dd53afc46c15fe0abbfaa534dc52e",
+          "title": "OpenAI 在 ChatGPT Work 中推出 Data agent / Now everyone can put data to work",
+          "title_zh": "OpenAI 在 ChatGPT Work 中推出 Data agent",
+          "title_en": "Now everyone can put data to work",
+          "title_original": "Now everyone can put data to work",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
+          "url": "https://openai.com/index/put-data-to-work",
           "source": "OpenAI News",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-09-10T00:00:00Z"
-        },
-        {
-          "id": "fd465ec7bb37863901e6f1092e6bb1b9d73368c7",
-          "title": "OpenAI 在 API 中推出全双工语音模型 GPT-Live-1 / Build more natural voice experiences with GPT-Live-1 in the API",
-          "title_zh": "OpenAI 在 API 中推出全双工语音模型 GPT-Live-1",
-          "title_en": "Build more natural voice experiences with GPT-Live-1 in the API",
-          "title_original": "Build more natural voice experiences with GPT-Live-1 in the API",
-          "summary": "OpenAI 在 API 中发布语音模型 GPT-Live-1，可同时听和说，支持将推理和工具调用委派给 GPT-6 Astra 等后端模型，前端语音层定价为每分钟 $0.05。",
-          "recommend_reason_zh": null,
-          "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
-          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-09-10T00:00:00Z"
+          "published_at": "2026-09-10T15:00:00Z"
         }
       ],
-      "source_count": 2,
+      "source_count": 1,
       "source_names": [
-        "OpenAI News",
-        "OpenAI：官网动态（RSS · 排除企业/客户案例）"
+        "OpenAI News"
       ],
       "items": [
         {
-          "id": "fa499acdee266b73e44fc3c07d7788607b46c31a",
-          "title": "OpenAI 在 API 中推出全双工语音模型 GPT-Live-1 / Build more natural voice experiences with GPT‑Live‑1 in the API",
-          "title_zh": "OpenAI 在 API 中推出全双工语音模型 GPT-Live-1",
-          "title_en": "Build more natural voice experiences with GPT‑Live‑1 in the API",
-          "title_original": "Build more natural voice experiences with GPT‑Live‑1 in the API",
+          "id": "324abe5a685dd53afc46c15fe0abbfaa534dc52e",
+          "title": "OpenAI 在 ChatGPT Work 中推出 Data agent / Now everyone can put data to work",
+          "title_zh": "OpenAI 在 ChatGPT Work 中推出 Data agent",
+          "title_en": "Now everyone can put data to work",
+          "title_original": "Now everyone can put data to work",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
+          "url": "https://openai.com/index/put-data-to-work",
           "source": "OpenAI News",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-09-10T00:00:00Z"
-        },
-        {
-          "id": "fd465ec7bb37863901e6f1092e6bb1b9d73368c7",
-          "title": "OpenAI 在 API 中推出全双工语音模型 GPT-Live-1 / Build more natural voice experiences with GPT-Live-1 in the API",
-          "title_zh": "OpenAI 在 API 中推出全双工语音模型 GPT-Live-1",
-          "title_en": "Build more natural voice experiences with GPT-Live-1 in the API",
-          "title_original": "Build more natural voice experiences with GPT-Live-1 in the API",
-          "summary": "OpenAI 在 API 中发布语音模型 GPT-Live-1，可同时听和说，支持将推理和工具调用委派给 GPT-6 Astra 等后端模型，前端语音层定价为每分钟 $0.05。",
-          "recommend_reason_zh": null,
-          "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
-          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-09-10T00:00:00Z"
+          "published_at": "2026-09-10T15:00:00Z"
         }
       ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.8338,
-      "importance": 0.8338,
-      "importance_score": 0.8338,
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.8275,
+      "importance": 0.8275,
+      "importance_score": 0.8275,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
-        "ai_relevance": 0.95,
-        "recency": 0.7156,
-        "story_heat": 0.25
+        "ai_relevance": 0.91,
+        "recency": 0.8642,
+        "story_heat": 0.0
       },
       "category": "official",
       "reasons": [
         "official_source",
-        "multi_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-09-10T00:00:00Z",
-      "latest_at": "2026-09-10T00:00:00Z",
+      "earliest_at": "2026-09-10T15:00:00Z",
+      "latest_at": "2026-09-10T15:00:00Z",
       "primary_item": {
-        "id": "fa499acdee266b73e44fc3c07d7788607b46c31a",
-        "title": "OpenAI 在 API 中推出全双工语音模型 GPT-Live-1 / Build more natural voice experiences with GPT‑Live‑1 in the API",
-        "title_zh": "OpenAI 在 API 中推出全双工语音模型 GPT-Live-1",
-        "title_en": "Build more natural voice experiences with GPT‑Live‑1 in the API",
-        "title_original": "Build more natural voice experiences with GPT‑Live‑1 in the API",
+        "id": "324abe5a685dd53afc46c15fe0abbfaa534dc52e",
+        "title": "OpenAI 在 ChatGPT Work 中推出 Data agent / Now everyone can put data to work",
+        "title_zh": "OpenAI 在 ChatGPT Work 中推出 Data agent",
+        "title_en": "Now everyone can put data to work",
+        "title_original": "Now everyone can put data to work",
         "summary": null,
         "recommend_reason_zh": null,
-        "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
+        "url": "https://openai.com/index/put-data-to-work",
         "source": "OpenAI News",
         "source_name": "Official AI Updates"
       },
@@ -806,7 +610,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-10T23:43:16.111903Z"
+        "scored_at": "2026-09-11T01:37:56.701454Z"
       }
     },
     {
@@ -883,15 +687,15 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8002,
-      "importance": 0.8002,
-      "importance_score": 0.8002,
+      "score": 0.7957,
+      "importance": 0.7957,
+      "importance_score": 0.7957,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.8,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.909,
+        "recency": 0.8839,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -918,90 +722,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-10T23:43:16.111903Z"
-      }
-    },
-    {
-      "story_id": "story_66723f7214d7",
-      "title": "Codex CLI Python SDK 0.154.0",
-      "url": "https://developers.openai.com/codex/changelog",
-      "primary_url": "https://developers.openai.com/codex/changelog",
-      "source": "OpenAI Codex Changelog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "4a626eb7c4e4a97cc2ed6e709431dddbf19fba02",
-          "title": "Codex CLI Python SDK 0.154.0",
-          "title_zh": null,
-          "title_en": "Codex CLI Python SDK 0.154.0",
-          "title_original": "Codex CLI Python SDK 0.154.0",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://developers.openai.com/codex/changelog",
-          "source": "OpenAI Codex Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-09-10T00:00:00Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "OpenAI Codex Changelog"
-      ],
-      "items": [
-        {
-          "id": "4a626eb7c4e4a97cc2ed6e709431dddbf19fba02",
-          "title": "Codex CLI Python SDK 0.154.0",
-          "title_zh": null,
-          "title_en": "Codex CLI Python SDK 0.154.0",
-          "title_original": "Codex CLI Python SDK 0.154.0",
-          "summary": null,
-          "recommend_reason_zh": null,
-          "url": "https://developers.openai.com/codex/changelog",
-          "source": "OpenAI Codex Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-09-10T00:00:00Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8148,
-      "importance": 0.8148,
-      "importance_score": 0.8148,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.98,
-        "recency": 0.7156,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-09-10T00:00:00Z",
-      "latest_at": "2026-09-10T00:00:00Z",
-      "primary_item": {
-        "id": "4a626eb7c4e4a97cc2ed6e709431dddbf19fba02",
-        "title": "Codex CLI Python SDK 0.154.0",
-        "title_zh": null,
-        "title_en": "Codex CLI Python SDK 0.154.0",
-        "title_original": "Codex CLI Python SDK 0.154.0",
-        "summary": null,
-        "recommend_reason_zh": null,
-        "url": "https://developers.openai.com/codex/changelog",
-        "source": "OpenAI Codex Changelog",
-        "source_name": "Official AI Updates"
-      },
-      "persona_id": "pragmatic",
-      "persona_score": 1,
-      "persona_meta": {
-        "mode": "rules_fallback",
-        "scored_at": "2026-09-10T23:43:16.111903Z"
+        "scored_at": "2026-09-11T01:37:56.701454Z"
       }
     },
     {
@@ -1049,15 +770,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7762,
-      "importance": 0.7762,
-      "importance_score": 0.7762,
+      "score": 0.7722,
+      "importance": 0.7722,
+      "importance_score": 0.7722,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.87,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7977,
+        "recency": 0.7756,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1083,7 +804,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-10T23:43:16.111903Z"
+        "scored_at": "2026-09-11T01:37:56.701454Z"
       }
     },
     {
@@ -1131,15 +852,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7747,
-      "importance": 0.7747,
-      "importance_score": 0.7747,
+      "score": 0.7703,
+      "importance": 0.7703,
+      "importance_score": 0.7703,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.81,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8897,
+        "recency": 0.8651,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1165,90 +886,89 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-10T23:43:16.111903Z"
+        "scored_at": "2026-09-11T01:37:56.701454Z"
       }
     },
     {
-      "story_id": "story_b2726331d325",
-      "title": "OpenAI 在 ChatGPT Work 中推出 Data agent / Now everyone can put data to work",
-      "url": "https://openai.com/index/put-data-to-work",
-      "primary_url": "https://openai.com/index/put-data-to-work",
-      "source": "OpenAI News",
-      "source_name": "Official AI Updates",
+      "story_id": "story_6365ab05d91a",
+      "title": "OpenAI正式上线GPT-Live-1 API：支持打断处理、工具调用与电话智能体",
+      "url": "https://www.aibase.com/news/30973",
+      "primary_url": "https://www.aibase.com/news/30973",
+      "source": "AIbase",
+      "source_name": "AIbase",
       "sources": [
         {
-          "id": "324abe5a685dd53afc46c15fe0abbfaa534dc52e",
-          "title": "OpenAI 在 ChatGPT Work 中推出 Data agent / Now everyone can put data to work",
-          "title_zh": "OpenAI 在 ChatGPT Work 中推出 Data agent",
-          "title_en": "Now everyone can put data to work",
-          "title_original": "Now everyone can put data to work",
+          "id": "8692d836f0d5f218f0885c54181def4acee2c38a",
+          "title": "OpenAI正式上线GPT-Live-1 API：支持打断处理、工具调用与电话智能体",
+          "title_zh": "OpenAI正式上线GPT-Live-1 API：支持打断处理、工具调用与电话智能体",
+          "title_en": null,
+          "title_original": "OpenAI正式上线GPT-Live-1 API：支持打断处理、工具调用与电话智能体",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://openai.com/index/put-data-to-work",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-09-10T15:00:00Z"
+          "url": "https://www.aibase.com/news/30973",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-09-11T01:06:37.868103Z"
         }
       ],
       "source_count": 1,
       "source_names": [
-        "OpenAI News"
+        "AIbase"
       ],
       "items": [
         {
-          "id": "324abe5a685dd53afc46c15fe0abbfaa534dc52e",
-          "title": "OpenAI 在 ChatGPT Work 中推出 Data agent / Now everyone can put data to work",
-          "title_zh": "OpenAI 在 ChatGPT Work 中推出 Data agent",
-          "title_en": "Now everyone can put data to work",
-          "title_original": "Now everyone can put data to work",
+          "id": "8692d836f0d5f218f0885c54181def4acee2c38a",
+          "title": "OpenAI正式上线GPT-Live-1 API：支持打断处理、工具调用与电话智能体",
+          "title_zh": "OpenAI正式上线GPT-Live-1 API：支持打断处理、工具调用与电话智能体",
+          "title_en": null,
+          "title_original": "OpenAI正式上线GPT-Live-1 API：支持打断处理、工具调用与电话智能体",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://openai.com/index/put-data-to-work",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-09-10T15:00:00Z"
+          "url": "https://www.aibase.com/news/30973",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-09-11T01:06:37.868103Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.832,
-      "importance": 0.832,
-      "importance_score": 0.832,
-      "importance_label": "官方更新",
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
       "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.8887,
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
         "story_heat": 0.0
       },
-      "category": "official",
+      "category": "industry",
       "reasons": [
-        "official_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-09-10T15:00:00Z",
-      "latest_at": "2026-09-10T15:00:00Z",
+      "earliest_at": "2026-09-11T01:06:37.868103Z",
+      "latest_at": "2026-09-11T01:06:37.868103Z",
       "primary_item": {
-        "id": "324abe5a685dd53afc46c15fe0abbfaa534dc52e",
-        "title": "OpenAI 在 ChatGPT Work 中推出 Data agent / Now everyone can put data to work",
-        "title_zh": "OpenAI 在 ChatGPT Work 中推出 Data agent",
-        "title_en": "Now everyone can put data to work",
-        "title_original": "Now everyone can put data to work",
+        "id": "8692d836f0d5f218f0885c54181def4acee2c38a",
+        "title": "OpenAI正式上线GPT-Live-1 API：支持打断处理、工具调用与电话智能体",
+        "title_zh": "OpenAI正式上线GPT-Live-1 API：支持打断处理、工具调用与电话智能体",
+        "title_en": null,
+        "title_original": "OpenAI正式上线GPT-Live-1 API：支持打断处理、工具调用与电话智能体",
         "summary": null,
         "recommend_reason_zh": null,
-        "url": "https://openai.com/index/put-data-to-work",
-        "source": "OpenAI News",
-        "source_name": "Official AI Updates"
+        "url": "https://www.aibase.com/news/30973",
+        "source": "AIbase",
+        "source_name": "AIbase"
       },
       "persona_id": "pragmatic",
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-10T23:43:16.111903Z"
+        "scored_at": "2026-09-11T01:37:56.701454Z"
       }
     },
     {
@@ -1296,15 +1016,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8297,
-      "importance": 0.8297,
-      "importance_score": 0.8297,
+      "score": 0.8251,
+      "importance": 0.8251,
+      "importance_score": 0.8251,
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.87,
-        "recency": 0.9207,
+        "recency": 0.8953,
         "story_heat": 0.0
       },
       "category": "official",
@@ -1331,7 +1051,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-10T23:43:16.111903Z"
+        "scored_at": "2026-09-11T01:37:56.701454Z"
       }
     },
     {
@@ -1379,15 +1099,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7684,
-      "importance": 0.7684,
-      "importance_score": 0.7684,
+      "score": 0.7638,
+      "importance": 0.7638,
+      "importance_score": 0.7638,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.77,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9211,
+        "recency": 0.8957,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1413,7 +1133,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-10T23:43:16.111903Z"
+        "scored_at": "2026-09-11T01:37:56.701454Z"
       }
     },
     {
@@ -1461,15 +1181,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7665,
-      "importance": 0.7665,
-      "importance_score": 0.7665,
+      "score": 0.7627,
+      "importance": 0.7627,
+      "importance_score": 0.7627,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.85,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.7775,
+        "recency": 0.756,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1495,89 +1215,90 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-10T23:43:16.111903Z"
+        "scored_at": "2026-09-11T01:37:56.701454Z"
       }
     },
     {
-      "story_id": "story_74f7eba24928",
-      "title": "275万网友用阿福减重超500万斤:AI或引爆健康消费  体脂秤血糖",
-      "url": "https://www.aibase.com/news/30971",
-      "primary_url": "https://www.aibase.com/news/30971",
-      "source": "AIbase",
-      "source_name": "AIbase",
+      "story_id": "story_ee45c8b26d46",
+      "title": "Introducing ChatGPT for Financial Services",
+      "url": "https://openai.com/index/introducing-chatgpt-financial-services",
+      "primary_url": "https://openai.com/index/introducing-chatgpt-financial-services",
+      "source": "OpenAI News",
+      "source_name": "Official AI Updates",
       "sources": [
         {
-          "id": "49f740619fb57d89cecb9a7c6c8ebd1f75d7cb7a",
-          "title": "275万网友用阿福减重超500万斤:AI或引爆健康消费  体脂秤血糖",
-          "title_zh": "275万网友用阿福减重超500万斤:AI或引爆健康消费  体脂秤血糖",
-          "title_en": null,
-          "title_original": "275万网友用阿福减重超500万斤:AI或引爆健康消费  体脂秤血糖",
+          "id": "cad283b13f92e0ce9e9c1333c897d2ebf099ed0e",
+          "title": "Introducing ChatGPT for Financial Services",
+          "title_zh": null,
+          "title_en": "Introducing ChatGPT for Financial Services",
+          "title_original": "Introducing ChatGPT for Financial Services",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/30971",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-09-10T19:41:15.210050Z"
+          "url": "https://openai.com/index/introducing-chatgpt-financial-services",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-09-10T07:00:00Z"
         }
       ],
       "source_count": 1,
       "source_names": [
-        "AIbase"
+        "OpenAI News"
       ],
       "items": [
         {
-          "id": "49f740619fb57d89cecb9a7c6c8ebd1f75d7cb7a",
-          "title": "275万网友用阿福减重超500万斤:AI或引爆健康消费  体脂秤血糖",
-          "title_zh": "275万网友用阿福减重超500万斤:AI或引爆健康消费  体脂秤血糖",
-          "title_en": null,
-          "title_original": "275万网友用阿福减重超500万斤:AI或引爆健康消费  体脂秤血糖",
+          "id": "cad283b13f92e0ce9e9c1333c897d2ebf099ed0e",
+          "title": "Introducing ChatGPT for Financial Services",
+          "title_zh": null,
+          "title_en": "Introducing ChatGPT for Financial Services",
+          "title_original": "Introducing ChatGPT for Financial Services",
           "summary": null,
           "recommend_reason_zh": null,
-          "url": "https://www.aibase.com/news/30971",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-09-10T19:41:15.210050Z"
+          "url": "https://openai.com/index/introducing-chatgpt-financial-services",
+          "source": "OpenAI News",
+          "source_name": "Official AI Updates",
+          "site_id": "official_ai",
+          "published_at": "2026-09-10T07:00:00Z"
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7588,
-      "importance": 0.7588,
-      "importance_score": 0.7588,
-      "importance_label": "行业动态",
+      "score": 0.8186,
+      "importance": 0.8186,
+      "importance_score": 0.8186,
+      "importance_label": "官方更新",
       "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.951,
+        "editorial": 0.9,
+        "source_tier": 1.0,
+        "ai_relevance": 0.95,
+        "recency": 0.7699,
         "story_heat": 0.0
       },
-      "category": "industry",
+      "category": "official",
       "reasons": [
+        "official_source",
         "high_ai_relevance",
         "high_importance"
       ],
-      "earliest_at": "2026-09-10T19:41:15.210050Z",
-      "latest_at": "2026-09-10T19:41:15.210050Z",
+      "earliest_at": "2026-09-10T07:00:00Z",
+      "latest_at": "2026-09-10T07:00:00Z",
       "primary_item": {
-        "id": "49f740619fb57d89cecb9a7c6c8ebd1f75d7cb7a",
-        "title": "275万网友用阿福减重超500万斤:AI或引爆健康消费  体脂秤血糖",
-        "title_zh": "275万网友用阿福减重超500万斤:AI或引爆健康消费  体脂秤血糖",
-        "title_en": null,
-        "title_original": "275万网友用阿福减重超500万斤:AI或引爆健康消费  体脂秤血糖",
+        "id": "cad283b13f92e0ce9e9c1333c897d2ebf099ed0e",
+        "title": "Introducing ChatGPT for Financial Services",
+        "title_zh": null,
+        "title_en": "Introducing ChatGPT for Financial Services",
+        "title_original": "Introducing ChatGPT for Financial Services",
         "summary": null,
         "recommend_reason_zh": null,
-        "url": "https://www.aibase.com/news/30971",
-        "source": "AIbase",
-        "source_name": "AIbase"
+        "url": "https://openai.com/index/introducing-chatgpt-financial-services",
+        "source": "OpenAI News",
+        "source_name": "Official AI Updates"
       },
       "persona_id": "pragmatic",
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-10T23:43:16.111903Z"
+        "scored_at": "2026-09-11T01:37:56.701454Z"
       }
     },
     {
@@ -1625,15 +1346,15 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7558,
-      "importance": 0.7558,
-      "importance_score": 0.7558,
+      "score": 0.7516,
+      "importance": 0.7516,
+      "importance_score": 0.7516,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.77,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.851,
+        "recency": 0.8275,
         "story_heat": 0.0
       },
       "category": "industry",
@@ -1659,7 +1380,7 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-10T23:43:16.111903Z"
+        "scored_at": "2026-09-11T01:37:56.701454Z"
       }
     },
     {
@@ -1707,21 +1428,20 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.7538,
-      "importance": 0.7538,
-      "importance_score": 0.7538,
+      "score": 0.7497,
+      "importance": 0.7497,
+      "importance_score": 0.7497,
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.79,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8064,
+        "recency": 0.7841,
         "story_heat": 0.0
       },
       "category": "industry",
       "reasons": [
-        "high_ai_relevance",
-        "high_importance"
+        "high_ai_relevance"
       ],
       "earliest_at": "2026-09-10T08:16:13Z",
       "latest_at": "2026-09-10T08:16:13Z",
@@ -1741,7 +1461,251 @@
       "persona_score": 1,
       "persona_meta": {
         "mode": "rules_fallback",
-        "scored_at": "2026-09-10T23:43:16.111903Z"
+        "scored_at": "2026-09-11T01:37:56.701454Z"
+      }
+    },
+    {
+      "story_id": "story_bcd7d71a4aa4",
+      "title": "DeepSeek 发布 V4.1-Flash，API 价格同步下调",
+      "url": "https://api-docs.deepseek.com/zh-cn/updates",
+      "primary_url": "https://api-docs.deepseek.com/zh-cn/updates",
+      "source": "DeepSeek：API 更新日志",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "09e02b519b59037c4409e618dca34e880d033e48",
+          "title": "DeepSeek 发布 V4.1-Flash，API 价格同步下调",
+          "title_zh": "DeepSeek 发布 V4.1-Flash，API 价格同步下调",
+          "title_en": null,
+          "title_original": "DeepSeek 发布 V4.1-Flash，API 价格同步下调",
+          "summary": "DeepSeek 发布 DeepSeek-V4.1-Flash，是全新模型结构系列中最小尺寸的模型，具备原生多模态视觉理解能力，评测包括 GPQA Diamond 90.9、HLE 36.8、Codeforces Rating 3471、Terminal-Bench 2.1 90.6 等。",
+          "recommend_reason_zh": null,
+          "url": "https://api-docs.deepseek.com/zh-cn/updates",
+          "source": "DeepSeek：API 更新日志",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-09-10T05:58:04.695000Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "DeepSeek：API 更新日志"
+      ],
+      "items": [
+        {
+          "id": "09e02b519b59037c4409e618dca34e880d033e48",
+          "title": "DeepSeek 发布 V4.1-Flash，API 价格同步下调",
+          "title_zh": "DeepSeek 发布 V4.1-Flash，API 价格同步下调",
+          "title_en": null,
+          "title_original": "DeepSeek 发布 V4.1-Flash，API 价格同步下调",
+          "summary": "DeepSeek 发布 DeepSeek-V4.1-Flash，是全新模型结构系列中最小尺寸的模型，具备原生多模态视觉理解能力，评测包括 GPQA Diamond 90.9、HLE 36.8、Codeforces Rating 3471、Terminal-Bench 2.1 90.6 等。",
+          "recommend_reason_zh": null,
+          "url": "https://api-docs.deepseek.com/zh-cn/updates",
+          "source": "DeepSeek：API 更新日志",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-09-10T05:58:04.695000Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7451,
+      "importance": 0.7451,
+      "importance_score": 0.7451,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.79,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.7585,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-09-10T05:58:04.695000Z",
+      "latest_at": "2026-09-10T05:58:04.695000Z",
+      "primary_item": {
+        "id": "09e02b519b59037c4409e618dca34e880d033e48",
+        "title": "DeepSeek 发布 V4.1-Flash，API 价格同步下调",
+        "title_zh": "DeepSeek 发布 V4.1-Flash，API 价格同步下调",
+        "title_en": null,
+        "title_original": "DeepSeek 发布 V4.1-Flash，API 价格同步下调",
+        "summary": "DeepSeek 发布 DeepSeek-V4.1-Flash，是全新模型结构系列中最小尺寸的模型，具备原生多模态视觉理解能力，评测包括 GPQA Diamond 90.9、HLE 36.8、Codeforces Rating 3471、Terminal-Bench 2.1 90.6 等。",
+        "recommend_reason_zh": null,
+        "url": "https://api-docs.deepseek.com/zh-cn/updates",
+        "source": "DeepSeek：API 更新日志",
+        "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 1,
+      "persona_meta": {
+        "mode": "rules_fallback",
+        "scored_at": "2026-09-11T01:37:56.701454Z"
+      }
+    },
+    {
+      "story_id": "story_35fb0c352519",
+      "title": "算力需求超载！OpenAI暂停ChatGPT Pro 200美元档新用户注册与升级",
+      "url": "https://www.aibase.com/news/30974",
+      "primary_url": "https://www.aibase.com/news/30974",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "470422fef94d4eac1cd1ce5ab8f2d9a51a2fcb1a",
+          "title": "算力需求超载！OpenAI暂停ChatGPT Pro 200美元档新用户注册与升级",
+          "title_zh": "算力需求超载！OpenAI暂停ChatGPT Pro 200美元档新用户注册与升级",
+          "title_en": null,
+          "title_original": "算力需求超载！OpenAI暂停ChatGPT Pro 200美元档新用户注册与升级",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/30974",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-09-11T01:06:37.868103Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "470422fef94d4eac1cd1ce5ab8f2d9a51a2fcb1a",
+          "title": "算力需求超载！OpenAI暂停ChatGPT Pro 200美元档新用户注册与升级",
+          "title_zh": "算力需求超载！OpenAI暂停ChatGPT Pro 200美元档新用户注册与升级",
+          "title_en": null,
+          "title_original": "算力需求超载！OpenAI暂停ChatGPT Pro 200美元档新用户注册与升级",
+          "summary": null,
+          "recommend_reason_zh": null,
+          "url": "https://www.aibase.com/news/30974",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": "2026-09-11T01:06:37.868103Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.7676,
+      "importance": 0.7676,
+      "importance_score": 0.7676,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 1.0,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-09-11T01:06:37.868103Z",
+      "latest_at": "2026-09-11T01:06:37.868103Z",
+      "primary_item": {
+        "id": "470422fef94d4eac1cd1ce5ab8f2d9a51a2fcb1a",
+        "title": "算力需求超载！OpenAI暂停ChatGPT Pro 200美元档新用户注册与升级",
+        "title_zh": "算力需求超载！OpenAI暂停ChatGPT Pro 200美元档新用户注册与升级",
+        "title_en": null,
+        "title_original": "算力需求超载！OpenAI暂停ChatGPT Pro 200美元档新用户注册与升级",
+        "summary": null,
+        "recommend_reason_zh": null,
+        "url": "https://www.aibase.com/news/30974",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 1,
+      "persona_meta": {
+        "mode": "rules_fallback",
+        "scored_at": "2026-09-11T01:37:56.701454Z"
+      }
+    },
+    {
+      "story_id": "story_c56a29a4a046",
+      "title": "WorkBuddy 上线 DeepSeek V4.1-Flash，免费试用两周 / Now live on WorkBuddy ⚡ DeepSeek V4.1-Flash， free to try for 2 weeks.",
+      "url": "https://x.com/WorkBuddy_AI/status/2098076348749324362",
+      "primary_url": "https://x.com/WorkBuddy_AI/status/2098076348749324362",
+      "source": "X：Tencent WorkBuddy (@WorkBuddy_AI)",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "37075f1db40b91c96d53783998fe88076f5f141d",
+          "title": "WorkBuddy 上线 DeepSeek V4.1-Flash，免费试用两周 / Now live on WorkBuddy ⚡ DeepSeek V4.1-Flash， free to try for 2 weeks.",
+          "title_zh": "WorkBuddy 上线 DeepSeek V4.1-Flash，免费试用两周",
+          "title_en": "Now live on WorkBuddy ⚡ DeepSeek V4.1-Flash， free to try for 2 weeks.",
+          "title_original": "Now live on WorkBuddy ⚡ DeepSeek V4.1-Flash， free to try for 2 weeks.",
+          "summary": "WorkBuddy 宣布 DeepSeek V4.1-Flash 已在其平台上线，免费试用两周。引用的 DeepSeek 公告称 V4.1-Flash 已登陆 DeepSeek API 并支持原生多模态。",
+          "recommend_reason_zh": null,
+          "url": "https://x.com/WorkBuddy_AI/status/2098076348749324362",
+          "source": "X：Tencent WorkBuddy (@WorkBuddy_AI)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-09-10T15:49:16Z"
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "X：Tencent WorkBuddy (@WorkBuddy_AI)"
+      ],
+      "items": [
+        {
+          "id": "37075f1db40b91c96d53783998fe88076f5f141d",
+          "title": "WorkBuddy 上线 DeepSeek V4.1-Flash，免费试用两周 / Now live on WorkBuddy ⚡ DeepSeek V4.1-Flash， free to try for 2 weeks.",
+          "title_zh": "WorkBuddy 上线 DeepSeek V4.1-Flash，免费试用两周",
+          "title_en": "Now live on WorkBuddy ⚡ DeepSeek V4.1-Flash， free to try for 2 weeks.",
+          "title_original": "Now live on WorkBuddy ⚡ DeepSeek V4.1-Flash， free to try for 2 weeks.",
+          "summary": "WorkBuddy 宣布 DeepSeek V4.1-Flash 已在其平台上线，免费试用两周。引用的 DeepSeek 公告称 V4.1-Flash 已登陆 DeepSeek API 并支持原生多模态。",
+          "recommend_reason_zh": null,
+          "url": "https://x.com/WorkBuddy_AI/status/2098076348749324362",
+          "source": "X：Tencent WorkBuddy (@WorkBuddy_AI)",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-09-10T15:49:16Z"
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.736,
+      "importance": 0.736,
+      "importance_score": 0.736,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.69,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.8745,
+        "story_heat": 0.0
+      },
+      "category": "industry",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-09-10T15:49:16Z",
+      "latest_at": "2026-09-10T15:49:16Z",
+      "primary_item": {
+        "id": "37075f1db40b91c96d53783998fe88076f5f141d",
+        "title": "WorkBuddy 上线 DeepSeek V4.1-Flash，免费试用两周 / Now live on WorkBuddy ⚡ DeepSeek V4.1-Flash， free to try for 2 weeks.",
+        "title_zh": "WorkBuddy 上线 DeepSeek V4.1-Flash，免费试用两周",
+        "title_en": "Now live on WorkBuddy ⚡ DeepSeek V4.1-Flash， free to try for 2 weeks.",
+        "title_original": "Now live on WorkBuddy ⚡ DeepSeek V4.1-Flash， free to try for 2 weeks.",
+        "summary": "WorkBuddy 宣布 DeepSeek V4.1-Flash 已在其平台上线，免费试用两周。引用的 DeepSeek 公告称 V4.1-Flash 已登陆 DeepSeek API 并支持原生多模态。",
+        "recommend_reason_zh": null,
+        "url": "https://x.com/WorkBuddy_AI/status/2098076348749324362",
+        "source": "X：Tencent WorkBuddy (@WorkBuddy_AI)",
+        "source_name": "AI HOT"
+      },
+      "persona_id": "pragmatic",
+      "persona_score": 1,
+      "persona_meta": {
+        "mode": "rules_fallback",
+        "scored_at": "2026-09-11T01:37:56.701454Z"
       }
     }
   ]
